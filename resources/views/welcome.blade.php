@@ -29,6 +29,15 @@
     <link rel="stylesheet" href="{{ asset('nuevos/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
+	
+	<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="{{asset('client2/plugins/revolution/revolution/css/settings.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('client2/plugins/revolution/revolution/css/navigation.css')}}">
+    <!-- JavaScript  files ========================================= -->
+    {{-- <link href="{{ asset('client/css/wedding_style.css') }}" rel="stylesheet" type="text/css"> --}}
+    <link rel="stylesheet" href="{{ asset('nuevos/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
     {{--  <link rel="stylesheet" href="{{ asset('nuevos/css/style.css') }}">  --}}
 	 <!-- JavaScript  files ========================================= -->
     <script src="{{asset('nuevos/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
@@ -62,46 +71,102 @@
     <script src="{{asset('client2/js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
     {{--  <script src="{{asset('client2/plugins/switcher/switcher.js')}}"></script><!-- SWITCHER JS  -->  --}}
    <script src="{{asset('nuevos/owl.carousel.min.js')}}"></script> 
-   {{--  <script src="{{asset('nuevos/main.js')}}"></script>   --}}
-
-<script>
-    $(document).ready(function(){
-
- 
-		$('.owl-carousel').owlCarousel({
-            loop:true,
-            autoplay: true,
-            margin:0,
-            animateOut: 'fadeOut',
-            animateIn: 'fadeIn',
-            nav:true,
-            dots: false,
-            video:true,
-            videoHeight: 300, 
-            videoWidth: 200,
-            autoplay:true,
-            autoplayHoverPause: true,
-            items: 1,
-            navText : ['<i class="catch fas fa-angle-left"></i>','<i class="catch fas fa-angle-right"></i>'],
-            responsive:{
-              0:{
-                items:1
-              },
-              600:{
-                items:1
-              },
-              1000:{
-                items:1
-              }
-            }
-            });
-
-})
-	
-</script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
+    <!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+    <script src="{{asset('client2/plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
+    <script  src="{{asset('client2/js/rev.slider.js')}}"></script>
+    
+    <script>
+    $(document).ready(function() {
+        'use strict';
+        dz_rev_slider_1();
+    });	/*ready*/
+    </script>
 </head>
 <body id="bg">
     <div id="loading-area"><div class="la-anim-10"></div></div>
+    <!-- Preloader -->
+    {{--  <div class="wed_page_loader">
+        <div class="wed_story_content">
+            <div class="wed_heart_container_row_4">
+                <img class="wed_fourth_heart_1" src="https://mafer.soysoftware.com/images/small_people/heart_1.png" alt="">
+                <img class="wed_fourth_heart_2" src="https://mafer.soysoftware.com/images/small_people/heart_2.png" alt="">
+                <img class="wed_fourth_heart_3" src="https://mafer.soysoftware.com/images/small_people/heart_3.png" alt="">
+            </div>
+            <div class="wed_story_small_img">
+                <img src="https://mafer.soysoftware.com/images/small_people/small_couple.png" alt="">
+            </div>
+
+        </div>
+    </div>  --}}
+    <!-- Preloader End--> 
+    <div class="wed_flowers">
+        <div class="wed_fl_2 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:800px" data-1200="top:1200px" data-3000="top:2600px" data-4500="top:4900px" data-6500="top:6900px" data-8000="top:8900px" style="top: 210px;">
+          <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
+      </div>
+      <div class="wed_fl_3 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:1000px" data-1200="top:1400px" data-3000="top:3600px" data-4500="top:4500px" data-6500="top:7000px" data-8000="top:6700px" style="top: 210px;">
+          <img src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
+      </div>
+      <div class="wed_fl_4 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:600px" data-1200="top:600px" data-3000="top:3900px" data-4500="top:4900px" data-6500="top:6600px" data-8000="top:8600px" style="top: 650px;">
+          <img src="{{ asset('client/images/petals/blue_flower/1.png') }}" alt="">
+      </div>
+      
+      <div class="wed_fl_6 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:520px" data-1200="top:1220px" data-3000="top:3220px" data-4500="top:4130px" data-6500="top:6130px" data-8000="top:9150px" style="top: 490px;">
+          <img src="{{ asset('client/images/petals/blue_flower/2_blur.png') }}" alt="">
+      </div>
+      <div class="wed_fl_7 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
+          <img src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
+      </div>
+
+      <div class="wed_fl_8 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:520px" data-1200="top:1220px" data-3000="top:3220px" data-4500="top:4130px" data-6500="top:6130px" data-8000="top:9150px" style="top: 490px;">
+          <img src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
+      </div>
+    
+      <div class="wed_fl_9 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:300px" data-1200="top:1200px" data-3000="top:3050px" data-4500="top:4100px" data-6500="top:6800px" data-8000="top:8700px" style="top: 130px;">
+          <img src="{{ asset('client/images/petals/blue_flower/9.png') }}" alt="">
+      </div>
+      <div class="wed_fl_12 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:730px" data-1200="top:1200px" data-3000="top:2800px" data-4500="top:4500px" data-6500="top:6200px" data-8000="top:6500px" style="top: 360px;">
+          <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
+      </div>
+      <div class="wed_fl_10 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:600px" data-1200="top:600px" data-3000="top:3900px" data-4500="top:4900px" data-6500="top:6600px" data-8000="top:8600px" style="top: 650px;">
+          <img src="{{ asset('client/images/petals/blue_flower/3_blur.png') }}" alt="">
+      </div>
+
+      <div class="wed_fl_13 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:730px" data-1200="top:1200px" data-3000="top:2800px" data-4500="top:4500px" data-6500="top:6200px" data-8000="top:6500px" style="top: 360px;">
+          <img src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
+      </div>
+      <div class="wed_fl_14 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
+          <img src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
+      </div>
+      <div class="wed_fl_15 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
+          <img src="{{ asset('client/images/petals/blue_flower/15.png') }}" alt="">
+      </div>
+      <div class="wed_fl_16 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:300px" data-1200="top:1200px" data-3000="top:3050px" data-4500="top:4100px" data-6500="top:6800px" data-8000="top:8700px" style="top: 130px;">
+          <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
+      </div>
+      <div class="wed_fl_17 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
+          <img src="{{ asset('client/images/petals/blue_flower/17.png') }}" alt="">
+      </div>
+      <div class="wed_fl_18 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:800px" data-1200="top:1200px" data-3000="top:2600px" data-4500="top:4900px" data-6500="top:6900px" data-8000="top:8900px" style="top: 210px;">
+          <img src="{{ asset('client/images/petals/blue_flower/18.png') }}" alt="">
+      </div>
+      <div class="wed_fl_19 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:1000px" data-1200="top:1400px" data-3000="top:3600px" data-4500="top:4500px" data-6500="top:7000px" data-8000="top:6700px" style="top: 210px;">
+          <img src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
+      </div>
+      
+
+  </div> 
+    <!-- Page -->
+    <div class="wed_page" id="wed_page">
     <div class="page-wraper">
     
         <!-- header -->
@@ -130,7 +195,7 @@
                     <div class="container clearfix">
                         <!-- website logo -->
                         <div class="logo-header mostion">
-                            <a href="index.html" class="dez-page"><img src="{{asset('nuevos/images/logo_blanco.png')}}" alt=""></a>
+                            <a href="index.html" class="dez-page"><img src="https://agency.dexignlab.com/xhtml/images/logo.png" alt=""></a>
                         </div>
                         <!-- nav toggle button -->
                         <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -158,8 +223,16 @@
                                         <li><a href="index-7.html" class="dez-page">Home 7 <span class="new-page">New</span></a></li>
                                     </ul>	
                                 </li>
-                         
-                            
+                          
+                                <li><a href="#">Our Service <i class="fa fa-chevron-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="service.html" class="dez-page">Services</a></li>
+                                        <li><a href="services-details.html" class="dez-page">Services Details</a></li>
+                                    </ul>
+                                </li>
+                        
+                 
+    
                             </ul>		
                         </div>
                     </div>
@@ -168,168 +241,272 @@
             <!-- main header END -->
         </header>
         <!-- header END -->
-        <div class="wed_flowers">
-  
-            {{-- <div class="wed_fl_1 wed_fl skrollable skrollable-between fadeInUp" data-0="top:260px" data-500="top:1000px" data-1200="top:1500px" data-3000="top:3000px" data-4500="top:4000px" data-6500="top:6000px" data-8000="top:8000px" style="top: 260px;">
-                <img src="{{ asset('client/images/petals/blue_flower/1.png') }}" alt="">
-            </div> --}}
-            <div class="wed_fl_2 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:800px" data-1200="top:1200px" data-3000="top:2600px" data-4500="top:4900px" data-6500="top:6900px" data-8000="top:8900px" style="top: 210px;">
-                <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
-            </div>
-            <div class="wed_fl_3 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:1000px" data-1200="top:1400px" data-3000="top:3600px" data-4500="top:4500px" data-6500="top:7000px" data-8000="top:6700px" style="top: 210px;">
-                <img src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
-            </div>
-            <div class="wed_fl_4 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:600px" data-1200="top:600px" data-3000="top:3900px" data-4500="top:4900px" data-6500="top:6600px" data-8000="top:8600px" style="top: 650px;">
-                <img src="{{ asset('client/images/petals/blue_flower/1.png') }}" alt="">
-            </div>
-            
-            <div class="wed_fl_6 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:520px" data-1200="top:1220px" data-3000="top:3220px" data-4500="top:4130px" data-6500="top:6130px" data-8000="top:9150px" style="top: 490px;">
-                <img src="{{ asset('client/images/petals/blue_flower/2_blur.png') }}" alt="">
-            </div>
-            <div class="wed_fl_7 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
-                <img src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
-            </div>
-    
-            <div class="wed_fl_8 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:520px" data-1200="top:1220px" data-3000="top:3220px" data-4500="top:4130px" data-6500="top:6130px" data-8000="top:9150px" style="top: 490px;">
-                <img src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
-            </div>
-            {{-- <div class="wed_fl_11 wed_fl skrollable skrollable-between" data-0="top:260px" data-500="top:1000px" data-1200="top:1500px" data-3000="top:3000px" data-4500="top:4000px" data-6500="top:6000px" data-8000="top:8000px" style="top: 260px;">
-                <img src="{{ asset('client/images/petals/blue_flower/11.png') }}" alt="">
-            </div> --}}
-            <div class="wed_fl_9 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:300px" data-1200="top:1200px" data-3000="top:3050px" data-4500="top:4100px" data-6500="top:6800px" data-8000="top:8700px" style="top: 130px;">
-                <img src="{{ asset('client/images/petals/blue_flower/9.png') }}" alt="">
-            </div>
-            <div class="wed_fl_12 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:730px" data-1200="top:1200px" data-3000="top:2800px" data-4500="top:4500px" data-6500="top:6200px" data-8000="top:6500px" style="top: 360px;">
-                <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
-            </div>
-            <div class="wed_fl_10 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:600px" data-1200="top:600px" data-3000="top:3900px" data-4500="top:4900px" data-6500="top:6600px" data-8000="top:8600px" style="top: 650px;">
-                <img src="{{ asset('client/images/petals/blue_flower/3_blur.png') }}" alt="">
-            </div>
-    
-            <div class="wed_fl_13 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:730px" data-1200="top:1200px" data-3000="top:2800px" data-4500="top:4500px" data-6500="top:6200px" data-8000="top:6500px" style="top: 360px;">
-                <img src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
-            </div>
-            <div class="wed_fl_14 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
-                <img src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
-            </div>
-            <div class="wed_fl_15 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
-                <img src="{{ asset('client/images/petals/blue_flower/15.png') }}" alt="">
-            </div>
-            <div class="wed_fl_16 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:300px" data-1200="top:1200px" data-3000="top:3050px" data-4500="top:4100px" data-6500="top:6800px" data-8000="top:8700px" style="top: 130px;">
-                <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
-            </div>
-            <div class="wed_fl_17 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
-                <img src="{{ asset('client/images/petals/blue_flower/17.png') }}" alt="">
-            </div>
-            <div class="wed_fl_18 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:800px" data-1200="top:1200px" data-3000="top:2600px" data-4500="top:4900px" data-6500="top:6900px" data-8000="top:8900px" style="top: 210px;">
-                <img src="{{ asset('client/images/petals/blue_flower/18.png') }}" alt="">
-            </div>
-            <div class="wed_fl_19 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:1000px" data-1200="top:1400px" data-3000="top:3600px" data-4500="top:4500px" data-6500="top:7000px" data-8000="top:6700px" style="top: 210px;">
-                <img src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
-            </div>
-            
-    
-        </div>
+       
         <!-- Content -->
         <div class="page-content">
-            <!-- Slider -->           
-            <section class="home-slider rev_slider fullscreenbanner owl-carousel js-fullheight curv-bx">
-                <div class="slider-item js-fullheight item-video curv-bx" data-merge="1" >
-                    
-                    <video class="video-intro" autoplay loop muted>
-                        <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
-                        </video>
-                    <div class="overlay"></div>
-                    <div class="container ">
-                    <div class="row slider-text carousel-caption align-items-center fadeIn" data-scrollax-parent="true">
-            
-                        <div class="col-md-12 col-sm-12 text-center ftco-animate ">
-                            <span class="subheading ">Trajes Multicolor</span>
-                        <h1 class="mb-4 ">Venta y Alquiler</h1>
-                        </div>
-            
-                    </div>
-                    </div>
-                </div>
-                      
-                <div class="slider-item js-fullheight " style="background-image: url({{asset('nuevos/images/bg_1.jpg')}});">
-                    <div class="overlay"></div>
-                    <div class="container">
-                    <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-            
-                        <div class="col-md-12 col-sm-12 text-center ftco-animate">
-                            <span class="subheading">Feliciano</span>
-                        <h1 class="mb-4">Nutritious &amp; Tasty</h1>
-                        </div>
-            
-                    </div>
-                    </div>
-                </div>
-                      
-                <div class="slider-item js-fullheight" style="background-image: url({{asset('nuevos/images/bg_3.jpg')}});">
-                    <div class="overlay"></div>
-                    <div class="container">
-                    <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-            
-                        <div class="col-md-12 col-sm-12 text-center ftco-animate">
-                            <span class="subheading">Feliciano</span>
-                        <h1 class="mb-4">Delicious Specialties</h1>
-                        </div>
-            
-                    </div>
-                    </div>
-                </div>
-            </section>  
-             
+            <!-- Slider -->
+            <div class="main-slider style-two default-banner" id="home">
+                <div class="tp-banner-container">
+                    <div class="tp-banner" >
+                        <div id="welcome_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="reveal-add-on36" data-source="gallery" style="background:#ffffff;padding:0px;">
+                            <!-- START REVOLUTION SLIDER 5.4.7.2 fullscreen mode -->
+                                <div id="welcome" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.7.2">
+                            <ul>	<!-- SLIDE  -->
+                                <li data-index="rs-101" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                    <!-- MAIN IMAGE -->
+                                    <video class="video-intro" autoplay loop muted>
+                                        <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
+                                      </video>
+                                    <!-- LAYERS -->
+    
+                                    <!-- LAYER NR. 1 -->
+                                    <div class="tp-caption tp-shape tp-shapewrapper ov-tp " 
+                                        id="slide-101-layer-14" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                                        data-width="full"
+                                        data-height="full"
+                                        data-whitespace="nowrap"
+                                        data-type="shape" 
+                                        data-basealign="slide" 
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1500,"frame":"999","to":"opacity:0;","ease":"Power4.easeIn"}]'
+                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[0,0,0,0]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[0,0,0,0]"
+    
+                                        style="z-index: 5;font-family:Open Sans;"> </div>
+    
+                                    <!-- LAYER NR. 2 -->
+                                    <div class="tp-caption  " 
+                                        id="slide-101-layer-1" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['-40','-80','-80','-70']" 
+                                        data-fontsize="['70','70','50','30']"
+                                        data-lineheight="['90','80','70','60']"
+                                        data-letterspacing="['-5','-5','-2','-3']"
+                                        data-width="['800','none','768','260']"
+                                        data-height="none"
+                                        data-whitespace="['normal','nowrap','normal','normal']"
+                             
+                                        data-type="text" 
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;","color":"#000000","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","color":"#000000","to":"opacity:0;","ease":"nothing"}]'
+                                        data-textAlign="['center','left','center','center']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[10,10,0,0]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[0,0,0,0]"
+    
+                                        style="z-index: 6; min-width: 800px; max-width: 800px; white-space: normal; font-size: 90px; line-height: 90px; font-weight: 600; color: #ffffff; letter-spacing: -5px;font-family:'Montserrat',sans-serif;">Design Agency</div>
+    
+                                    <!-- LAYER NR. 3 -->
+                                    <div class="tp-caption  " 
+                                        id="slide-101-layer-2" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['50','20','10','10']" 
+                                        data-fontsize="['20','20','20','17']"
+                                        data-lineheight="['30','30','25','22']"
+                                        data-color="['rgba(255,255,255,0.75)','rgba(255,255,255,0.65)','rgba(255,255,255,0.65)','rgba(255,255,255,0.65)']"
+                                        data-width="['640','481','500','260']"
+                                        data-height="none"
+                                        data-whitespace="normal"
+                             
+                                        data-type="text" 
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;","color":"#000000","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","color":"#000000","to":"opacity:0;","ease":"nothing"}]'
+                                        data-textAlign="['center','center','center','center']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[0,0,0,0]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[0,0,0,0]"
+    
+                                        style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+    
+                                    <!-- LAYER NR. 4 -->
+                                    <a class="tp-caption rev-btn   tc-btnshadow tp-rs-menulink" 
+                                        href="#" target="_blank"			 
+                                        id="slide-101-layer-12" 
+                                        data-x="['center','center','center','center']" data-hoffset="['-150','-150','-110','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['150','140','100','100']" 
+                                        data-lineheight="['60','60','50','50']"
+                                        data-width="['280','280','200','none']"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                             
+                                        data-type="button" 
+                                        data-actions=''
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:-50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:rgba(255,255,255,1);"}]'
+                                        data-textAlign="['center','center','center','inherit']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[50,50,20,20]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[50,50,20,20]"
+    
+                                        style="z-index: 8; min-width: 280px; max-width: 280px; white-space: nowrap; font-size: 17px; line-height: 60px; font-weight: 500; color: rgba(255,255,255,1); font-family:'Montserrat',sans-serif;border-radius:30px 30px 30px 30px;outline:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;"><i class="fa-icon-cube" style="font-size:17px;margin-right:5px;"></i> About Us </a>
+    
+                                    <!-- LAYER NR. 5 -->
+                                    <a class="tp-caption rev-btn   tc-btnshadow" 
+                                        href="#" target="_blank"			 
+                                        id="slide-101-layer-13" 
+                                        data-x="['center','center','center','center']" data-hoffset="['150','150','100','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['150','140','100','160']" 
+                                        data-lineheight="['60','60','50','50']"
+                                        data-width="['280','280','200','none']"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                             
+                                        data-type="button" 
+                                        data-actions=''
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","bgcolor":"#000000","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","bgcolor":"#000000","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:rgba(0,0,0,1);"}]'
+                                        data-textAlign="['center','center','center','inherit']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[50,50,20,20]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[50,50,20,20]"
+    
+                                        style="z-index: 9; min-width: 280px; max-width: 280px; white-space: nowrap; font-size: 17px; line-height: 60px; font-weight: 500; color: #000; font-family:'Montserrat',sans-serif;background-color:#fff;border-radius:30px 30px 30px 30px;outline:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;"><i class="fa-icon-cloud-download" style="font-size:17px;margin-right:5px;"></i> Read More </a>
+                                </li>
+                                <!-- SLIDE  -->
+                                <li data-index="rs-102" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="https://agency.dexignlab.com/xhtml/images/main-slider/dummy.png"  alt=""  data-lazyload="{{asset('images/main-slider/slide5.jpg')}}" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina>
+                                    <!-- LAYERS -->
+    
+                                    <!-- LAYER NR. 6 -->
+                                    <div class="tp-caption tp-shape tp-shapewrapper ov-tp " 
+                                         id="slide-102-layer-14" 
+                                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                                                    data-width="full"
+                                        data-height="full"
+                                        data-whitespace="nowrap"
+                             
+                                        data-type="shape" 
+                                        data-basealign="slide" 
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1500,"frame":"999","to":"opacity:0;","ease":"Power4.easeIn"}]'
+                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[0,0,0,0]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[0,0,0,0]"
+    
+                                        style="z-index: 5;font-family:Open Sans;"> </div>
+    
+                                    <!-- LAYER NR. 7 -->
+                                    <div class="tp-caption  " 
+                                        id="slide-102-layer-1" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['-40','-80','-80','-70']" 
+                                        data-fontsize="['70','80','50','30']"
+                                        data-lineheight="['90','80','70','60']"
+                                        data-letterspacing="['-5','-5','-2','-3']"
+                                        data-width="['800','none','768','260']"
+                                        data-height="none"
+                                        data-whitespace="['normal','nowrap','normal','normal']"
+                             
+                                        data-type="text" 
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;","color":"#000000","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","color":"#000000","to":"opacity:0;","ease":"nothing"}]'
+                                        data-textAlign="['center','left','center','center']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[10,10,0,0]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[0,0,0,0]"
+    
+                                        style="z-index: 6; min-width: 800px; max-width: 800px; white-space: normal; font-size: 90px; line-height: 90px; font-weight: 600; color: #ffffff; letter-spacing: -5px;font-family:'Montserrat',sans-serif;">Creative Studio </div>
+    
+                                    <!-- LAYER NR. 8 -->
+                                    <div class="tp-caption  " 
+                                        id="slide-102-layer-2" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['50','20','20','10']" 
+                                        data-fontsize="['20','20','20','17']"
+                                        data-lineheight="['30','30','25','22']"
+                                        data-color="['rgba(255,255,255,0.75)','rgba(255,255,255,0.65)','rgba(255,255,255,0.65)','rgba(255,255,255,0.65)']"
+                                        data-width="['640','481','500','260']"
+                                        data-height="none"
+                                        data-whitespace="normal"
+                             
+                                        data-type="text" 
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;","color":"#000000","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","color":"#000000","to":"opacity:0;","ease":"nothing"}]'
+                                        data-textAlign="['center','center','center','center']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[0,0,0,0]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[0,0,0,0]"
+    
+                                        style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+    
+                                    <!-- LAYER NR. 4 -->
+                                    <a class="tp-caption rev-btn   tc-btnshadow tp-rs-menulink" 
+                                        href="#" target="_blank"			 
+                                        id="slide-102-layer-12" 
+                                        data-x="['center','center','center','center']" data-hoffset="['-150','-150','-110','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['150','140','100','100']" 
+                                        data-lineheight="['60','60','50','50']"
+                                        data-width="['280','280','200','none']"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                             
+                                        data-type="button" 
+                                        data-actions=''
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:-50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:rgba(255,255,255,1);"}]'
+                                        data-textAlign="['center','center','center','inherit']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[50,50,20,20]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[50,50,20,20]"
+    
+                                        style="z-index: 8; min-width: 280px; max-width: 280px; white-space: nowrap; font-size: 17px; line-height: 60px; font-weight: 500; color: rgba(255,255,255,1); font-family:'Montserrat',sans-serif;border-radius:30px 30px 30px 30px;outline:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;"><i class="fa-icon-cube" style="font-size:17px;margin-right:5px;"></i> About Us </a>
+    
+                                    <!-- LAYER NR. 10 -->
+                                    <a class="tp-caption rev-btn   tc-btnshadow" 
+                                        href="" target="_blank"			 
+                                        id="slide-102-layer-13" 
+                                        data-x="['center','center','center','center']" data-hoffset="['150','150','100','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['150','140','100','160']"
+                                        data-lineheight="['60','60','50','50']"
+                                        data-width="['280','280','200','none']"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                             
+                                        data-type="button" 
+                                        data-actions=''
+                                        data-responsive_offset="off" 
+                                        data-responsive="off"
+                                        data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","bgcolor":"#000000","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","bgcolor":"#000000","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:rgba(0,0,0,1);"}]'
+                                        data-textAlign="['center','center','center','inherit']"
+                                        data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[50,50,20,20]"
+                                        data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[50,50,20,20]"
+    
+                                        style="z-index: 9; min-width: 280px; max-width: 280px; white-space: nowrap; font-size: 17px; line-height: 60px; font-weight: 500; color: #000; font-family:'Montserrat',sans-serif;background-color:#fff;border-radius:30px 30px 30px 30px;outline:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;"><i class="fa-icon-cloud-download" style="font-size:17px;margin-right:5px;"></i> Read More </a>
+                                </li>
+                            </ul>
+                            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+                            </div><!-- END REVOLUTION SLIDER -->     
+                    </div>        
+                </div>        
+            </div>        
             <!-- Slider END -->
-            {{-- <section class="ftco-section ftco-no-pt ftco-no-pb">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="featured">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="featured-menus ftco-animate">
-                                            <div class="menu-img img" style="background-image: url({{ asset('client/images/petals/blue_flower/1_blur.png') }});"></div>
-                                            <div class="text text-center">
-                                                <h3>Grilled Beef with potatoes</h3>
-                                                <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="featured-menus ftco-animate">
-                                            <div class="menu-img img" style="background-image: url({{asset('nuevos/images/breakfast-2.jpg')}});"></div>
-                                            <div class="text text-center">
-                                                <h3>Grilled Beef with potatoes</h3>
-                                                <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="featured-menus ftco-animate">
-                                            <div class="menu-img img" style="background-image: url({{asset('nuevos/images/breakfast-3.jpg')}});"></div>
-                                            <div class="text text-center">
-                                                <h3>Grilled Beef with potatoes</h3>
-                                                <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="featured-menus ftco-animate">
-                                            <div class="menu-img img" style="background-image: url({{ asset('client/images/petals/blue_flower/1_blur.png') }});"></div>
-                                            <div class="text text-center">
-                                                <h3>Grilled Beef with potatoes</h3>
-                                                <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> --}}
             <!-- About Us -->
             <div class="section-full content-inner bg-white">
                 <div class="container">
@@ -372,127 +549,12 @@
                 </div>
             </div>
             <!-- About Us End-->
-            <!-- Services -->
-            <div class="section-full about-section bg-white">
-                <div class="container-fluid">
-                    <div class="row dzseth">
-                        <div class="bg-primary col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 d-flex dis-tbl">
-                            <div class="p-a30 text-white dis-tbl-cell align-self-center wow fadeIn" data-wow-delay="0.3s">
-                                <p class="font-weight-600 m-b10">create best website</p>
-                                <h4 class="font-weight-700">Extremely well organized with perfect coding</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
-                                <a href="#" class="site-button white outline outline-2">Read More</a>
-                            </div> 
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 d-flex">
-                            <img src="https://agency.dexignlab.com/xhtml/images/about-us/img4.jpg" class="abt-img img-cover" alt=""/>
-                        </div>
-                        <div class="bg-primary col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 d-flex dis-tbl">
-                            <div class="p-a30 text-white dis-tbl-cell align-self-center wow fadeIn" data-wow-delay="0.6s">
-                                <p class="font-weight-600 m-b10">create best website</p>
-                                <h4 class="font-weight-700">Extremely well organized with perfect coding</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text.</p>
-                                <a href="#" class="site-button white outline outline-2">Read More</a>
-                            </div> 
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 d-flex">
-                            <img src="https://agency.dexignlab.com/xhtml/images/about-us/img2.jpg" class="abt-img img-cover" alt=""/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Services END -->
 
-        </div>	
-         <!-- Footer -->
-        <footer class="site-footer text-uppercase">
-            <div class="footer-top bg-primary">
-                <div class="container wow fadeIn" data-wow-delay="0.5s">
-                    <div class="row">
-                        <div class="col-5 col-lg-2 col-md-6 col-sm-6 footer-col-4">
-                            <div class="widget widget_services border-0">
-                                <h5 class="m-b30 text-white">Company</h5>
-                                <ul>
-                                    <li><a href="about-1.html">About Us </a></li>
-                                    <li><a href="index.html">Home </a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="about-1.html">About Us</a></li>
-                                    <li><a href="service.html">Our Services</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-7 col-lg-2 col-md-6 col-sm-6 footer-col-4">
-                            <div class="widget widget_services border-0">
-                                <h5 class="m-b30 text-white">Useful Link</h5>
-                                <ul>
-                                    <li><a href="index.html">Create Account</a></li>
-                                    <li><a href="index.html">Company Philosophy </a></li>
-                                    <li><a href="contact.html">Corporate Culture</a></li>
-                                    <li><a href="about-1.html">Portfolio</a></li>
-                                    <li><a href="project-details.html">Project Details</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
-                            <div class="widget widget_getintuch">
-                                <h5 class="m-b30 text-white ">Contact us</h5>
-                                <ul>
-                                    <li><i class="ti-location-pin"></i><strong>address</strong> demo address #8901 Marmora Road Chi Minh City, Vietnam </li>
-                                    <li><i class="ti-mobile"></i><strong>phone</strong>0800-123456 (24/7 Support Line)</li>
-                                    <li><i class="ti-email"></i><strong>email</strong>info@example.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4 ">
-                            <div class="widget">
-                                <h5 class="m-b30 text-white">Subscribe To Our Newsletter</h5>
-                                <p class="text-capitalize m-b20">If you have any questions, you can contact with us so that we can give you a satisfying answer. Subscribe to our newsletter to get our latest products.</p>
-                                <div class="subscribe-form m-b20">
-                                    <form class="dzSubscribe" action="script/mailchamp.php" method="post">
-                                        <div class="dzSubscribeMsg"></div>
-                                        <div class="input-group">
-                                            <input name="dzEmail" required="required"  class="form-control" placeholder="Your Email Id" type="email">
-                                            <span class="input-group-btn">
-                                                <button name="submit" value="Submit" type="submit" class="site-button">Subscribe</button>
-                                            </span> 
-                                        </div>
-                                    </form>
-                                </div>
-                                <ul class="list-inline m-a0">
-                                    <li><a href="#" class="site-button facebook circle "><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" class="site-button google-plus circle "><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#" class="site-button linkedin circle "><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#" class="site-button instagram circle "><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#" class="site-button twitter circle "><i class="fa fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- footer bottom part -->
-            <div class="footer-bottom bg-primary">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 text-left "> <span>Copyright © 2018 DexignZone</span> </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 text-right "> 
-                            <div class="widget-link "> 
-                                <ul>
-                                    <li><a href="#"> Help Desk</a></li> 
-                                    <li><a href="#"> Privacy Policy</a></li> 
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Footer END-->
-        
-        <!-- scroll top button -->
-        <button class="scroltop fa fa-chevron-up" ></button>
-        
+        </div>
     </div>
+</div>
     
-    </body>
+</body>
 </html>
+
+
