@@ -16912,7 +16912,14 @@ ol.commentlist li .star-rating {
     transform: scale(0.7);
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 992px) {
+    .subheading {
+        font-size: 90px;
+    }
+    .letras-slider {
+        font-size: 19px !important;
+        min-width: 496x !important;
+    }
     .wed_fl_2 {
         top: 240px !important;
         max-width: 70px !important;
@@ -16930,11 +16937,46 @@ ol.commentlist li .star-rating {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+    .subheading {
+        font-size: 70px;
+    }
+    .letras-slider {
+        font-size: 18px !important;
+        min-width: 470px !important;
+    }
+    .wed_fl_2 {
+        top: 230px !important;
+        max-width: 70px !important;
+        left: 5% !important;
+    }
+    .wed_fl_3 {
+        top: 200px !important;
+        max-width: 70px !important;
+        left: 4% !important;
+    }
     .wed_fl_7 {
-        top: 290px !important;
+        top: 300px !important;
         max-width: 80px !important;
-        right: 12% !important;
+        right: 9% !important;
+    }
+    .wed_fl_9 {
+        top: 90px !important;
+        max-width: 70px !important;
+        left: 16% !important;
+    }
+    .wed_fl_14 {
+        top: 300px !important;
+        max-width: 80px !important;
+        left: 9% !important;
+    }
+    .wed_fl_15 {
+        left: 9% !important;
+    }
+    .wed_fl_19 {
+        top: 260px !important;
+        max-width: 70px !important;
+        right: 10% !important;
     }
 }
 

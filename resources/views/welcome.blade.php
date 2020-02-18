@@ -304,7 +304,7 @@
                                         style="z-index: 6; min-width: 800px; max-width: 800px; white-space: normal; font-size: 90px; line-height: 90px; font-weight: 600; color: #ffffff; letter-spacing: -5px;font-family:'Montserrat',sans-serif;"> <span class="subheading ">Trajes Multicolor</span></div>
     
                                     <!-- LAYER NR. 3 -->
-                                    <div class="tp-caption  " 
+                                    <div class="tp-caption letras-slider " 
                                         id="slide-101-layer-2" 
                                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                                         data-y="['middle','middle','middle','middle']" data-voffset="['50','20','10','10']" 
@@ -325,7 +325,7 @@
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
     
-                                        style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+                                        style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;">Realizamos el alquiler o te ayudamos a fabricar tus trajes acorde a tus eventos ya sean desfiles culturales, institucional o para fechas como carnaval.</div>
     
                                     <!-- LAYER NR. 4 -->
                                     <a class="tp-caption rev-btn   tc-btnshadow tp-rs-menulink" 
