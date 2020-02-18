@@ -7,25 +7,22 @@
     <title>Multicolor</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link href="{{ asset('admin/font/roboto.css') }}" rel="stylesheet" type="text/css">
+    
 	<link href="{{ asset('admin/font/icomoon/styles.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('admin/font/fontawesome-free-5.9.0-web/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('admin/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('client/css/wedding_library.css') }}" rel="stylesheet" type="text/css">
-
-    {{-- <link href="{{ asset('client/css/wedding_style.css') }}" rel="stylesheet" type="text/css"> --}}
-
     <link href="{{ asset('client/css/min.css') }}" rel="stylesheet" type="text/css">
     <!-- STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/plugins.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/style.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/templete.css')}}">
 	<link class="skin" rel="stylesheet" type="text/css" href="{{asset('client2/css/skin/skin-1.css')}}">
-	{{--  <link rel="stylesheet" type="text/css" href="{{asset('client2/plugins/switcher/switcher.css')}}">  --}}
+	
     <link rel="stylesheet" href="{{ asset('nuevos/open-iconic-bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/animate.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    {{-- <link href="{{ asset('client/css/wedding_style.css') }}" rel="stylesheet" type="text/css"> --}}
+    
     <link rel="stylesheet" href="{{ asset('nuevos/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
@@ -34,11 +31,11 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('client2/plugins/revolution/revolution/css/settings.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('client2/plugins/revolution/revolution/css/navigation.css')}}">
     <!-- JavaScript  files ========================================= -->
-    {{-- <link href="{{ asset('client/css/wedding_style.css') }}" rel="stylesheet" type="text/css"> --}}
+    
     <link rel="stylesheet" href="{{ asset('nuevos/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
-    {{--  <link rel="stylesheet" href="{{ asset('nuevos/css/style.css') }}">  --}}
+   
 	 <!-- JavaScript  files ========================================= -->
     <script src="{{asset('nuevos/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
     <script src="{{asset('nuevos/jquery-migrate-3.0.1.min.js')}}"></script>
@@ -49,7 +46,7 @@
     <script src="{{ asset('client/js/jquery.countdown.min.js') }}"></script>
     <script src="{{ asset('client/js/jquery.mb.YTPlayer.min.js') }}"></script>
     <script src="{{ asset('client/js/wedding_min_script.js') }}"></script>
-    <script src="{{asset('client2/plugins/bootstrap/js/popper.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+   
     <script src="{{asset('client2/plugins/wow/wow.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
     <script src="{{asset('client2/plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
     <script src="{{asset('client2/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}"></script><!-- FORM JS -->
@@ -110,57 +107,57 @@
     </div>  --}}
     <!-- Preloader End--> 
     <div class="wed_flowers">
-        <div class="wed_fl_2 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:100px"   style="top: 210px;">
-          <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
+        <div class="wed_fl_2 wed_fl skrollable skrollable-between logo-header mostion" data-0="top:210px" data-500="top:100px"   style="top: 210px;">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
       <div class="wed_fl_3 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px"   style="top: 210px;">
-          <img src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
       </div>
       <div class="wed_fl_4 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:100px"  style="top: 650px;">
-          <img src="{{ asset('client/images/petals/blue_flower/1.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/1.png') }}" alt="">
       </div>
       
       <div class="wed_fl_6 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:520px"   style="top: 490px;">
-          <img src="{{ asset('client/images/petals/blue_flower/2_blur.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/2_blur.png') }}" alt="">
       </div>
       <div class="wed_fl_7 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
-          <img src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
       </div>
 
       <div class="wed_fl_8 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:120px"  style="top: 490px;">
-          <img src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
       </div>
     
       <div class="wed_fl_9 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:100px" style="top: 130px;">
-          <img src="{{ asset('client/images/petals/blue_flower/9.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/9.png') }}" alt="">
       </div>
       <div class="wed_fl_12 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:230px"  style="top: 360px;">
-          <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
       <div class="wed_fl_10 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:100px"  style="top: 650px;">
-          <img src="{{ asset('client/images/petals/blue_flower/3_blur.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/3_blur.png') }}" alt="">
       </div>
 
       <div class="wed_fl_13 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:530px"  style="top: 360px;">
-          <img src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
       </div>
       <div class="wed_fl_14 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:220px"  style="top: 270px;">
-          <img src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
       </div>
       <div class="wed_fl_15 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
-          <img src="{{ asset('client/images/petals/blue_flower/15.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/15.png') }}" alt="">
       </div>
       <div class="wed_fl_16 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:100px"  style="top: 130px;">
-          <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
       <div class="wed_fl_17 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
-          <img src="{{ asset('client/images/petals/blue_flower/17.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/17.png') }}" alt="">
       </div>
       <div class="wed_fl_18 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:200px"  style="top: 210px;">
-          <img src="{{ asset('client/images/petals/blue_flower/18.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/18.png') }}" alt="">
       </div>
       <div class="wed_fl_19 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:300px"  style="top: 210px;">
-          <img src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
+          <img class="responsive" src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
       </div>
       
 

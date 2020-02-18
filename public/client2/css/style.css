@@ -16885,6 +16885,12 @@ ol.commentlist li .star-rating {
     opacity: 1;
 }
 
+@media screen and (max-width: 480px) {
+    #wed_flowers {
+        width: 50%;
+    }
+}
+
 .wed_third_step .wed_flowers.wed_flowers_slider_only {
     opacity: 0;
 }
