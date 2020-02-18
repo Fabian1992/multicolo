@@ -16885,9 +16885,9 @@ ol.commentlist li .star-rating {
     opacity: 1;
 }
 
-@media screen and (max-width: 480px) {
-    #wed_flowers {
-        width: 50%;
+@media screen and (max-width: 780px) {
+    .wed_fl_1 {
+        display: none;
     }
 }
 
@@ -16910,6 +16910,17 @@ ol.commentlist li .star-rating {
     top: 260px;
     left: 7;
     transform: scale(0.7);
+}
+
+@media screen and (max-width: 990px) {
+    .wed_fl_3 {
+        max-width: 50px !important;
+        left: 5% !important;
+    }
+    .wed_fl_19 {
+        max-width: 50px !important;
+        right: 10% !important;
+    }
 }
 
 .wed_fl_2 {
