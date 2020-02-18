@@ -110,56 +110,56 @@
     </div>  --}}
     <!-- Preloader End--> 
     <div class="wed_flowers">
-        <div class="wed_fl_2 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:800px" data-1200="top:1200px" data-3000="top:2600px" data-4500="top:4900px" data-6500="top:6900px" data-8000="top:8900px" style="top: 210px;">
+        <div class="wed_fl_2 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:100px"   style="top: 210px;">
           <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
-      <div class="wed_fl_3 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:1000px" data-1200="top:1400px" data-3000="top:3600px" data-4500="top:4500px" data-6500="top:7000px" data-8000="top:6700px" style="top: 210px;">
+      <div class="wed_fl_3 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px"   style="top: 210px;">
           <img src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
       </div>
-      <div class="wed_fl_4 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:600px" data-1200="top:600px" data-3000="top:3900px" data-4500="top:4900px" data-6500="top:6600px" data-8000="top:8600px" style="top: 650px;">
+      <div class="wed_fl_4 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:100px"  style="top: 650px;">
           <img src="{{ asset('client/images/petals/blue_flower/1.png') }}" alt="">
       </div>
       
-      <div class="wed_fl_6 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:520px" data-1200="top:1220px" data-3000="top:3220px" data-4500="top:4130px" data-6500="top:6130px" data-8000="top:9150px" style="top: 490px;">
+      <div class="wed_fl_6 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:520px"   style="top: 490px;">
           <img src="{{ asset('client/images/petals/blue_flower/2_blur.png') }}" alt="">
       </div>
       <div class="wed_fl_7 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
           <img src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
       </div>
 
-      <div class="wed_fl_8 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:520px" data-1200="top:1220px" data-3000="top:3220px" data-4500="top:4130px" data-6500="top:6130px" data-8000="top:9150px" style="top: 490px;">
+      <div class="wed_fl_8 wed_fl skrollable skrollable-between" data-0="top:490px" data-500="top:120px"  style="top: 490px;">
           <img src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
       </div>
     
-      <div class="wed_fl_9 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:300px" data-1200="top:1200px" data-3000="top:3050px" data-4500="top:4100px" data-6500="top:6800px" data-8000="top:8700px" style="top: 130px;">
+      <div class="wed_fl_9 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:100px" style="top: 130px;">
           <img src="{{ asset('client/images/petals/blue_flower/9.png') }}" alt="">
       </div>
-      <div class="wed_fl_12 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:730px" data-1200="top:1200px" data-3000="top:2800px" data-4500="top:4500px" data-6500="top:6200px" data-8000="top:6500px" style="top: 360px;">
+      <div class="wed_fl_12 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:230px"  style="top: 360px;">
           <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
-      <div class="wed_fl_10 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:600px" data-1200="top:600px" data-3000="top:3900px" data-4500="top:4900px" data-6500="top:6600px" data-8000="top:8600px" style="top: 650px;">
+      <div class="wed_fl_10 wed_fl skrollable skrollable-between" data-0="top:650px" data-500="top:100px"  style="top: 650px;">
           <img src="{{ asset('client/images/petals/blue_flower/3_blur.png') }}" alt="">
       </div>
 
-      <div class="wed_fl_13 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:730px" data-1200="top:1200px" data-3000="top:2800px" data-4500="top:4500px" data-6500="top:6200px" data-8000="top:6500px" style="top: 360px;">
+      <div class="wed_fl_13 wed_fl skrollable skrollable-between" data-0="top:360px" data-500="top:530px"  style="top: 360px;">
           <img src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
       </div>
-      <div class="wed_fl_14 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
+      <div class="wed_fl_14 wed_fl skrollable skrollable-between" data-0="top:300px" data-500="top:220px"  style="top: 270px;">
           <img src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
       </div>
       <div class="wed_fl_15 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
           <img src="{{ asset('client/images/petals/blue_flower/15.png') }}" alt="">
       </div>
-      <div class="wed_fl_16 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:300px" data-1200="top:1200px" data-3000="top:3050px" data-4500="top:4100px" data-6500="top:6800px" data-8000="top:8700px" style="top: 130px;">
+      <div class="wed_fl_16 wed_fl skrollable skrollable-between" data-0="top:110px" data-500="top:100px"  style="top: 130px;">
           <img src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
       <div class="wed_fl_17 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
           <img src="{{ asset('client/images/petals/blue_flower/17.png') }}" alt="">
       </div>
-      <div class="wed_fl_18 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:800px" data-1200="top:1200px" data-3000="top:2600px" data-4500="top:4900px" data-6500="top:6900px" data-8000="top:8900px" style="top: 210px;">
+      <div class="wed_fl_18 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:200px"  style="top: 210px;">
           <img src="{{ asset('client/images/petals/blue_flower/18.png') }}" alt="">
       </div>
-      <div class="wed_fl_19 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:1000px" data-1200="top:1400px" data-3000="top:3600px" data-4500="top:4500px" data-6500="top:7000px" data-8000="top:6700px" style="top: 210px;">
+      <div class="wed_fl_19 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:300px"  style="top: 210px;">
           <img src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
       </div>
       
@@ -195,7 +195,7 @@
                     <div class="container clearfix">
                         <!-- website logo -->
                         <div class="logo-header mostion">
-                            <a href="index.html" class="dez-page"><img src="https://agency.dexignlab.com/xhtml/images/logo.png" alt=""></a>
+                            <a href="index.html" class="dez-page"><img src="{{asset('nuevos/images/logo_blanco.png')}}" alt=""></a>
                         </div>
                         <!-- nav toggle button -->
                         <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -252,7 +252,8 @@
                             <!-- START REVOLUTION SLIDER 5.4.7.2 fullscreen mode -->
                                 <div id="welcome" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.7.2">
                             <ul>	<!-- SLIDE  -->
-                                <li data-index="rs-101" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                <li data-index="rs-101" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" 
+                                data-masterspeed="default"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                     <!-- MAIN IMAGE -->
                                     <video class="video-intro" autoplay loop muted>
                                         <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
@@ -271,7 +272,8 @@
                                         data-basealign="slide" 
                                         data-responsive_offset="off" 
                                         data-responsive="off"
-                                        data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1500,"frame":"999","to":"opacity:0;","ease":"Power4.easeIn"}]'
+                                        data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;",
+                                        "ease":"Power3.easeInOut"},{"delay":"wait","speed":1500,"frame":"999","to":"opacity:0;","ease":"Power4.easeIn"}]'
                                         data-textAlign="['inherit','inherit','inherit','inherit']"
                                         data-paddingtop="[0,0,0,0]"
                                         data-paddingright="[0,0,0,0]"
@@ -302,7 +304,7 @@
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
     
-                                        style="z-index: 6; min-width: 800px; max-width: 800px; white-space: normal; font-size: 90px; line-height: 90px; font-weight: 600; color: #ffffff; letter-spacing: -5px;font-family:'Montserrat',sans-serif;">Design Agency</div>
+                                        style="z-index: 6; min-width: 800px; max-width: 800px; white-space: normal; font-size: 90px; line-height: 90px; font-weight: 600; color: #ffffff; letter-spacing: -5px;font-family:'Montserrat',sans-serif;"> <span class="subheading ">Trajes Multicolor</span></div>
     
                                     <!-- LAYER NR. 3 -->
                                     <div class="tp-caption  " 
@@ -379,7 +381,7 @@
                                 <!-- SLIDE  -->
                                 <li data-index="rs-102" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                     <!-- MAIN IMAGE -->
-                                    <img src="https://agency.dexignlab.com/xhtml/images/main-slider/dummy.png"  alt=""  data-lazyload="{{asset('images/main-slider/slide5.jpg')}}" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina>
+                                    <img src="{{asset('nuevos/images/bg_1.jpg')}}"  alt=""  data-lazyload="{{asset('images/main-slider/slide5.jpg')}}" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina>
                                     <!-- LAYERS -->
     
                                     <!-- LAYER NR. 6 -->
@@ -453,7 +455,7 @@
                                         style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
     
                                     <!-- LAYER NR. 4 -->
-                                    <a class="tp-caption rev-btn   tc-btnshadow tp-rs-menulink" 
+                                    <a class="tp-caption rev-btn abut-slider  tc-btnshadow tp-rs-menulink" 
                                         href="#" target="_blank"			 
                                         id="slide-102-layer-12" 
                                         data-x="['center','center','center','center']" data-hoffset="['-150','-150','-110','0']" 
@@ -474,7 +476,7 @@
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[50,50,20,20]"
     
-                                        style="z-index: 8; min-width: 280px; max-width: 280px; white-space: nowrap; font-size: 17px; line-height: 60px; font-weight: 500; color: rgba(255,255,255,1); font-family:'Montserrat',sans-serif;border-radius:30px 30px 30px 30px;outline:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;"><i class="fa-icon-cube" style="font-size:17px;margin-right:5px;"></i> About Us </a>
+                                       ><i class="fa-icon-cube" style="font-size:17px;margin-right:5px;"></i> About Us </a>
     
                                     <!-- LAYER NR. 10 -->
                                     <a class="tp-caption rev-btn   tc-btnshadow" 
@@ -500,9 +502,11 @@
     
                                         style="z-index: 9; min-width: 280px; max-width: 280px; white-space: nowrap; font-size: 17px; line-height: 60px; font-weight: 500; color: #000; font-family:'Montserrat',sans-serif;background-color:#fff;border-radius:30px 30px 30px 30px;outline:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;"><i class="fa-icon-cloud-download" style="font-size:17px;margin-right:5px;"></i> Read More </a>
                                 </li>
+                                
                             </ul>
-                            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
-                            </div><!-- END REVOLUTION SLIDER -->     
+                           
+                        </div>
+                        </div><!-- END REVOLUTION SLIDER -->     
                     </div>        
                 </div>        
             </div>        

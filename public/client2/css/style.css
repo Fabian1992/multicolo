@@ -16687,8 +16687,8 @@ ol.commentlist li .star-rating {
     }
 }
 
-.owl-carousel.home-slider .slider-item .slider-text .subheading {
-    font-size: 80px;
+.subheading {
+    font-size: 90px;
     color: #c8a97e;
     font-weight: normal;
     font-family: "Great Vibes", cursive !important;
@@ -16891,7 +16891,12 @@ ol.commentlist li .star-rating {
 
 .wed_fl {
     position: absolute;
-    transition: all 3s;
+    transition: all 2s;
+    transform: scale(1);
+}
+
+.wed_fl1 {
+    position: absolute;
     transform: scale(1);
 }
 
@@ -17022,4 +17027,23 @@ ol.commentlist li .star-rating {
 .ftco-section {
     padding: 7em 0;
     position: relative;
+}
+
+.abut-slider {
+    z-index: 8;
+    min-width: 280px;
+    max-width: 280px;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 60px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px 30px 30px 30px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
 }
