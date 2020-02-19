@@ -16973,6 +16973,20 @@ ol.commentlist li .star-rating {
     .wed_fl_15 {
         left: 9% !important;
     }
+    .wed_fl_16 {
+        top: 100px !important;
+        right: 15% !important;
+        transform: scale(0.9) !important;
+    }
+    .wed_fl_17 {
+        transform: scale(1.0) !important;
+        right: 9% !important;
+    }
+    .wed_fl_18 {
+        top: 160px !important;
+        right: 1% !important;
+        transform: scale(0.4) !important;
+    }
     .wed_fl_19 {
         top: 260px !important;
         max-width: 70px !important;
@@ -17005,7 +17019,8 @@ ol.commentlist li .star-rating {
 
 .wed_fl_6 {
     top: 490px;
-    left: 3%;
+    left: 9%;
+    transform: scale(0.7);
 }
 
 .wed_fl_7 {
@@ -17030,7 +17045,9 @@ ol.commentlist li .star-rating {
 
 .wed_fl_10 {
     top: 650px;
-    right: 138px;
+    right: 100px;
+    transform: scale(0.9);
+    opacity: 1;
 }
 
 .wed_fl_11 {
@@ -17070,9 +17087,9 @@ ol.commentlist li .star-rating {
 }
 
 .wed_fl_18 {
-    top: 210px;
-    right: 5%;
-    transform: scale(0.7);
+    top: 140px !important;
+    right: 8%;
+    transform: scale(0.5);
 }
 
 .wed_fl_19 {
@@ -17120,4 +17137,8 @@ ol.commentlist li .star-rating {
     -webkit-box-sizing: border-box;
     cursor: pointer;
     text-decoration: none;
+}
+
+.primeraMayuscula {
+    text-transform: capitalize;
 }

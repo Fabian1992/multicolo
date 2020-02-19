@@ -153,7 +153,7 @@
       <div class="wed_fl_17 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/17.png') }}" alt="">
       </div>
-      <div class="wed_fl_18 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:200px"  style="top: 210px;">
+      <div class="wed_fl_18 wed_fl skrollable skrollable-between" data-0="top:140px" data-500="top:400px"  style="top: 140px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/18.png') }}" alt="">
       </div>
       <div class="wed_fl_19 wed_fl skrollable skrollable-between" data-0="top:210px" data-500="top:300px"  style="top: 210px;">
@@ -325,7 +325,7 @@
                                         data-paddingbottom="[0,0,0,0]"
                                         data-paddingleft="[0,0,0,0]"
     
-                                        style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;">Realizamos el alquiler o te ayudamos a fabricar tus trajes acorde a tus eventos ya sean desfiles culturales, institucional o para fechas como carnaval.</div>
+                                        style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;"><span class="primeraMayuscula"> Venta, Alquiler y Bordados de Trajes típicos, Folclóricos y para toda ocación </span>.</div>
     
                                     <!-- LAYER NR. 4 -->
                                     <a class="tp-caption rev-btn   tc-btnshadow tp-rs-menulink" 
