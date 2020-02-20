@@ -113,7 +113,7 @@
         </div>
     </div>  --}}
     <!-- Preloader End--> 
-    <div class="wed_flowers">
+    {{--  <div class="wed_flowers">
         <div class="wed_fl_2 wed_fl  " data-0="top:210px" data-500="top:100px"   style="top: 210px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
@@ -168,7 +168,7 @@
       </div>
       
 
-  </div> 
+  </div>   --}}
     <!-- Page -->
     <div class="wed_page" id="wed_page">
     <div class="page-wraper">
