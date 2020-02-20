@@ -16,22 +16,16 @@
     <link rel="stylesheet" href="{{ asset('nuevos/animate.css') }}">
     <!-- STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/plugins.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/style.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/templete.css')}}">
 	<link class="skin" rel="stylesheet" type="text/css" href="{{asset('client2/css/skin/skin-1.css')}}">
 	
     <link rel="stylesheet" href="{{ asset('nuevos/open-iconic-bootstrap.min.css') }}">
     
     
-    
     <link rel="stylesheet" href="{{ asset('nuevos/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
-	
-	
-    <link rel="stylesheet" href="{{ asset('nuevos/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/style.css')}}">
    
 	 <!-- JavaScript  files ========================================= -->
     <script src="{{asset('nuevos/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
@@ -81,7 +75,7 @@
                 dots: false,
                 video:true,
                
-                autoplay:true,
+                autoplay:false,
                 autoplayHoverPause: true,
                 items: 1,
                 navText : ['<i class="catch fas fa-angle-left"></i>','<i class="catch fas fa-angle-right"></i>'],
@@ -187,13 +181,13 @@
                         <div class="dlab-topbar-left">
                             <ul>
                                 <li><i class="flaticon-phone-call m-r5"></i> 0984372998</li>
-                                <li><i class="ti-location-pin m-r5"></i> Av. Antonia Vela y Av. Antonio josé de sucre, ECU</li>
+                                <li><i class="fa fa-map"></i> Av. Antonia Vela y Av. Antonio josé de sucre, ECU</li>
                             </ul>
                         </div>
                         <div class="dlab-topbar-right">
                             <ul>
-                                <li><i class="ti-skype m-r5"></i> Agency.software</li>
-                                <li><i class="ti-email m-r5"></i> info@example.com</li>
+                                <li><i class="fa fa-skype m-r5"></i> Agency.software</li>
+                                <li><i class="fa fa-email m-r5"></i> info@example.com</li>
                             </ul>
                         </div>
                     </div>
@@ -222,7 +216,7 @@
                         <!-- main nav -->
                         <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="nav navbar-nav">	
-                                <li class="active"><a href="#"><span class="ti-home"></span> <i class="fa fa-chevron-down"></i></a>
+                                <li class="active"><a href="#"><i class="fa fa-home mr5" aria-hidden="true"></i> <i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="index.html" class="dez-page">Home 1</a></li>
                                         <li><a href="index-2.html" class="dez-page">Home 2</a></li>
@@ -253,15 +247,16 @@
         <!-- header END -->
        
         <!-- Content -->
-        <div class="page-content">
+        <div class="page-contenty">
             <!-- Slider -->
             <!-- Slider -->           
-            <section class="home-slider rev_slider fullscreenbanner owl-carousel js-fullheight curv-bx" style="background-image: url({{ asset('client/images/wedding_ornament.png') }})">
+            <section class="home-slider rev_slider fullscreenbanner owl-carousel js-fullheight curv-bx" >
                 <div class="slider-item js-fullheight item-video curv-bx" data-merge="1" >
                     
-                    <video class="video-intro" autoplay loop muted>
+                    <video class=" video-intro " autoplay loop muted name="media">
                         <source src="{{ asset('nuevos/videos/slider.mp4') }}" type="video/mp4">
                         </video>
+                   
                     <div class="overlay"></div>
                     <div class="container ">
                     <div class="row slider-text carousel-caption align-items-center " data-scrollax-parent="true">
