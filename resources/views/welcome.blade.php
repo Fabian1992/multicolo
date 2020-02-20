@@ -12,6 +12,7 @@
 	<link href="{{ asset('admin/font/fontawesome-free-5.9.0-web/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('admin/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('client/css/wedding_library.css') }}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/style.css')}}">
     <link href="{{ asset('client/css/min.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ asset('nuevos/animate.css') }}">
     <!-- STYLESHEETS -->
@@ -25,7 +26,6 @@
     <link rel="stylesheet" href="{{ asset('nuevos/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/style.css')}}">
    
 	 <!-- JavaScript  files ========================================= -->
     <script src="{{asset('nuevos/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
@@ -253,8 +253,8 @@
             <section class="home-slider rev_slider fullscreenbanner owl-carousel js-fullheight curv-bx" >
                 <div class="slider-item js-fullheight item-video curv-bx" data-merge="1" >
                     
-                    <video class=" video-intro " autoplay loop muted name="media">
-                        <source src="{{ asset('nuevos/videos/slider.mp4') }}" type="video/mp4">
+                    <video class=" video-intro " autoplay controls loop muted name="media">
+                        <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
                         </video>
                    
                     <div class="overlay"></div>
