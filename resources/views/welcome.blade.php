@@ -113,7 +113,7 @@
         </div>
     </div>  --}}
     <!-- Preloader End--> 
-    {{--  <div class="wed_flowers">
+    <div class="wed_flowers">
         <div class="wed_fl_2 wed_fl  " data-0="top:210px" data-500="top:100px"   style="top: 210px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
@@ -168,7 +168,7 @@
       </div>
       
 
-  </div>   --}}
+  </div> 
     <!-- Page -->
     <div class="wed_page" id="wed_page">
     <div class="page-wraper">
@@ -253,8 +253,8 @@
             <section class="home-slider rev_slider fullscreenbanner owl-carousel js-fullheight curv-bx" >
                 <div class="slider-item js-fullheight item-video curv-bx" data-merge="1" >
                     
-                    <video class=" video-intro " autoplay controls loop muted name="media">
-                        <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
+                    <video class=" video-intro " autoplay  loop muted name="media">
+                        <source src="{{ asset('nuevos/videos/slider.mp4') }}" type="video/mp4">
                         </video>
                    
                     <div class="overlay"></div>
