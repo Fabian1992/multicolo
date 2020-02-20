@@ -27,74 +27,8 @@
     <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
    
-	 <!-- JavaScript  files ========================================= -->
-    <script src="{{asset('nuevos/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
-    <script src="{{asset('nuevos/jquery-migrate-3.0.1.min.js')}}"></script>
-    <script src="{{asset('client2/plugins/bootstrap/js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
-    
-    <script src="{{ asset('admin/js/blockui.min.js') }}"></script>
-    <script src="{{ asset('client/js/wedding_min_library.js') }}"></script>
-    <script src="{{ asset('client/js/jquery.countdown.min.js') }}"></script>
-    <script src="{{ asset('client/js/jquery.mb.YTPlayer.min.js') }}"></script>
-    <script src="{{ asset('client/js/wedding_min_script.js') }}"></script>
-   
-    <script src="{{asset('client2/plugins/wow/wow.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
-    <script src="{{asset('client2/plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
-    <script src="{{asset('client2/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}"></script><!-- FORM JS -->
-    <script src="{{asset('client2/plugins/magnific-popup/magnific-popup.js')}}"></script><!-- MAGNIFIC-POPUP JS -->
-    <script src="{{asset('client2/plugins/counter/waypoints-min.js')}}"></script><!-- WAYPOINTS JS -->
-    <script src="{{asset('client2/plugins/counter/counterup.min.js')}}"></script><!-- COUNTERUP JS -->
-    <script src="{{asset('client2/plugins/imagesloaded/imagesloaded.js')}}"></script><!-- MASONRY  -->
-    <script src="{{asset('client2/plugins/masonry/masonry-3.1.4.js')}}"></script><!-- MASONRY  -->
-    <script src="{{asset('client2/plugins/masonry/masonry.filter.js')}}"></script><!-- MASONRY  -->
-    <script src="{{asset('client2/plugins/owl-carousel/owl.carousel.js')}}"></script><!-- OWL  SLIDER  -->
-    <script src="{{asset('client2/plugins/rangeslider/rangeslider.js')}}" ></script><!-- Rangeslider -->
-    <script src="{{asset('client2/js/dz.carousel.js')}}"></script><!-- SORTCODE FUCTIONS  -->
-    <script src="{{asset('client2/plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
-    <script src="{{asset('client2/plugins/loading/anime-app.js')}}"></script><!-- LOADING JS -->
-    <script src="{{asset('client2/js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
+	 
 
-    <script src="{{asset('client2/plugins/loading/anime.js')}}"></script><!-- Tilt Jquery -->
-    <script src="{{asset('client2/plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery -->
-    <script src="{{asset('client2/js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
-    {{--  <script src="{{asset('client2/plugins/switcher/switcher.js')}}"></script><!-- SWITCHER JS  -->  --}}
-   <script src="{{asset('nuevos/owl.carousel.min.js')}}"></script> 
-
-    
-    <script>
-        $(document).ready(function(){
-    
-     
-            $('.owl-carousel').owlCarousel({
-                loop:true,
-                autoplay: true,
-                margin:0,
-                animateOut: 'fadeOut',
-                animateIn: 'fadeIn',
-                nav:true,
-                dots: false,
-                video:true,
-               
-                autoplay:false,
-                autoplayHoverPause: true,
-                items: 1,
-                navText : ['<i class="catch fas fa-angle-left"></i>','<i class="catch fas fa-angle-right"></i>'],
-                responsive:{
-                  0:{
-                    items:1
-                  },
-                  600:{
-                    items:1
-                  },
-                  1000:{
-                    items:1
-                  }
-                }
-                });
-    
-    })
-        
-    </script>
 </head>
 <body id="bg">
     <div id="loading-area"><div class="la-anim-10"></div></div>
@@ -346,7 +280,73 @@
         </div>
     </div>
 </div>
+<!-- JavaScript  files ========================================= -->
+<script src="{{asset('nuevos/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
+<script src="{{asset('nuevos/jquery-migrate-3.0.1.min.js')}}"></script>
+<script src="{{asset('client2/plugins/bootstrap/js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+
+<script src="{{ asset('admin/js/blockui.min.js') }}"></script>
+<script src="{{ asset('client/js/wedding_min_library.js') }}"></script>
+<script src="{{ asset('client/js/jquery.countdown.min.js') }}"></script>
+<script src="{{ asset('client/js/jquery.mb.YTPlayer.min.js') }}"></script>
+<script src="{{ asset('client/js/wedding_min_script.js') }}"></script>
+
+<script src="{{asset('client2/plugins/wow/wow.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{asset('client2/plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
+<script src="{{asset('client2/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}"></script><!-- FORM JS -->
+<script src="{{asset('client2/plugins/magnific-popup/magnific-popup.js')}}"></script><!-- MAGNIFIC-POPUP JS -->
+<script src="{{asset('client2/plugins/counter/waypoints-min.js')}}"></script><!-- WAYPOINTS JS -->
+<script src="{{asset('client2/plugins/counter/counterup.min.js')}}"></script><!-- COUNTERUP JS -->
+<script src="{{asset('client2/plugins/imagesloaded/imagesloaded.js')}}"></script><!-- MASONRY  -->
+<script src="{{asset('client2/plugins/masonry/masonry-3.1.4.js')}}"></script><!-- MASONRY  -->
+<script src="{{asset('client2/plugins/masonry/masonry.filter.js')}}"></script><!-- MASONRY  -->
+<script src="{{asset('client2/plugins/owl-carousel/owl.carousel.js')}}"></script><!-- OWL  SLIDER  -->
+<script src="{{asset('client2/plugins/rangeslider/rangeslider.js')}}" ></script><!-- Rangeslider -->
+<script src="{{asset('client2/js/dz.carousel.js')}}"></script><!-- SORTCODE FUCTIONS  -->
+<script src="{{asset('client2/plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
+<script src="{{asset('client2/plugins/loading/anime-app.js')}}"></script><!-- LOADING JS -->
+<script src="{{asset('client2/js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
+
+<script src="{{asset('client2/plugins/loading/anime.js')}}"></script><!-- Tilt Jquery -->
+<script src="{{asset('client2/plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery -->
+<script src="{{asset('client2/js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
+{{--  <script src="{{asset('client2/plugins/switcher/switcher.js')}}"></script><!-- SWITCHER JS  -->  --}}
+<script src="{{asset('nuevos/owl.carousel.min.js')}}"></script> 
     
+<script>
+    $(document).ready(function(){
+
+ 
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            autoplay: true,
+            margin:0,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            nav:true,
+            dots: false,
+            video:true,
+           
+            autoplay:false,
+            autoplayHoverPause: true,
+            items: 1,
+            navText : ['<i class="catch fas fa-angle-left"></i>','<i class="catch fas fa-angle-right"></i>'],
+            responsive:{
+              0:{
+                items:1
+              },
+              600:{
+                items:1
+              },
+              1000:{
+                items:1
+              }
+            }
+            });
+
+})
+    
+</script>
 </body>
 </html>
 
