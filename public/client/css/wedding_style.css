@@ -90,15 +90,6 @@
     pointer-events: none;
 }
 
-body {
-    color: #333;
-    font: 400 16px/25px Lato, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-    background-color: #fff;
-}
-
 .body_no_height {
     height: auto;
 }
@@ -116,18 +107,6 @@ body {
     height: 100vh;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-    color: #6f6f6f
-}
-
-html {
-    min-height: 100%;
-    height: 100%
-}
-
 .clear {
     clear: both;
 }
@@ -137,10 +116,6 @@ html {
     position: relative;
     height: 100%;
     left: 0;
-}
-
-.wed_large_text {
-    font: 400 18px/30px hensa, Arial;
 }
 
 .wed_over {
@@ -244,33 +219,7 @@ h3.wed_form_txt {
     color: #986beb;
 }
 
-h2.wed_form_txt {
-    /*padding-bottom: 10px;*/
-}
-
-h1.wed_h1_title {
-    font: 900 72px hensa, Arial;
-    line-height: 1.125;
-    margin-top: 0;
-}
-
-h2 {
-    font: 400 24px hensa, Arial;
-    line-height: 1.125;
-    margin-bottom: 30px;
-    margin-top: 0;
-}
-
-.wed_great_titles h2 {
-    font: 900 90px hensa, Arial;
-}
-
-.wed_middle_titles h2 {
-    font: 900 72px hensa, Arial;
-}
-
 .wed_thin_titles h2 {
-    font: 300 44px hensa, Arial;
     margin-top: 60px;
 }
 
@@ -288,7 +237,6 @@ h2:after {
 }
 
 .wed_plans h2 {
-    font: 400 48px hensa, Arial;
     margin-bottom: 20px;
 }
 
@@ -326,7 +274,6 @@ h2.active:after {
 }
 
 h2.wed_hensa_slider {
-    font: 300 100px hensa, Arial;
     text-transform: none;
 }
 
@@ -335,7 +282,6 @@ h2.wed_hensa_slider:after {
 }
 
 h2.wed_agency_hensa_slider {
-    font: 300 130px hensa, Arial;
     text-transform: none;
     margin-bottom: -20px;
 }
@@ -348,12 +294,6 @@ h2.wed_agency_hensa_slider {
     display: none;
 }
 
-h3 {
-    font: 400 46px/48px Bree Serif, Arial;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
 .wed_content .text-center h3 {
     max-width: 700px;
     margin-right: auto;
@@ -364,24 +304,8 @@ h3 {
     max-width: 100%;
 }
 
-h4 {
-    margin: 20px 0;
-    font-size: 28px;
-}
-
 .wed_test_cont h4 {
     margin: 20px 0 4px;
-}
-
-h5 {
-    text-transform: uppercase;
-    font-size: 16px;
-    margin-top: 33px;
-}
-
-h6 {
-    font: 400 46px/52px hensa, Arial;
-    margin-top: 33px;
 }
 
 
@@ -612,10 +536,6 @@ b {
     font-weight: 900;
 }
 
-p {
-    margin-bottom: 30px;
-}
-
 textarea.form-control {
     height: 150px;
     padding: 20px;
@@ -630,7 +550,6 @@ textarea.form-control {
         -moz-transform: scale(1);
         -o-transform: scale(1);
         -ms-transform: scale(1);
-        transform: scale(1);
     }
     10% {
         -webkit-transform: scale(0.9);
@@ -996,12 +915,6 @@ textarea.form-control {
     padding: 25px 0;
 }
 
-.great-tabs li a,
-.great-tabs li a:hover,
-.great-tabs li.active a,
-.great-tabs li.active a:hover,
-.great-tabs {}
-
 .great-tabs li a {
     text-align: center;
     margin: 0 10px;
@@ -1233,11 +1146,6 @@ textarea.form-control {
     border-radius: 0;
 }
 
-h5 .label,
-h6 .label {
-    padding: 5px;
-}
-
 
 /*02.5 Alerts*/
 
@@ -1401,6 +1309,14 @@ h6 .label {
 }
 
 
+/* 
+color1:#A60076 "lila"
+color2:#A9E93F "Verde"
+color3:#c8a97e
+color4:#450096 "Azul"
+*/
+
+
 /*02.9 Preloader*/
 
 .wed_page_loader {
@@ -1410,7 +1326,7 @@ h6 .label {
     position: fixed;
     top: 0;
     left: 0;
-    background: #fefefe;
+    background: #A60076;
     z-index: 100000;
 }
 
@@ -1647,7 +1563,6 @@ header {
 }
 
 .wed_logo {
-    font: 24px/18px Bree Serif, Arial;
     color: #333;
     text-transform: uppercase;
     position: absolute;
@@ -1666,7 +1581,6 @@ header {
 
 .wed_logo b {
     display: block;
-    font: 500 12px/18px Josefin Slab, Arial;
     position: relative;
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -1918,7 +1832,6 @@ header nav ul {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     text-transform: uppercase;
-    font: 900 13px/24px Lato, Arial;
     position: relative;
     text-decoration: none;
 }
@@ -2116,7 +2029,6 @@ ul.mega-menu:after {
 }
 
 .wed_parent ul a {
-    font: 400 11px/18px Lato, Arial;
     padding: 5px 10px;
 }
 
@@ -2793,26 +2705,22 @@ header nav.wed_mobile_menu_hor_padding ul li a,
 }
 
 .wed_slide_title {
-    font: 900 44px Josefin Slab, Arial;
     line-height: 1.0625;
     text-transform: uppercase;
 }
 
 .wed_slide_title_great {
-    font: 900 86px Libre Baskerville, Arial;
     line-height: 1.0625;
     text-transform: uppercase;
 }
 
 .wed_slide_title_middle {
-    font: 900 56px josefin Slab, Arial;
     line-height: 1.0625;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
 
 .wed_slide_subtitle {
-    font: 700 20px Josefin Slab, Arial;
     text-transform: uppercase;
     line-height: 1.125;
     margin-bottom: 20px;
@@ -2820,13 +2728,11 @@ header nav.wed_mobile_menu_hor_padding ul li a,
 }
 
 .wed_slide_desq {
-    font: 400 24px Josefin Slab, Arial;
     line-height: 1.35417;
     margin: 30px 0;
 }
 
 .wed_slide_desq_great {
-    font: 500 24px Josefin Slab, Arial;
     text-transform: uppercase;
 }
 
@@ -2862,7 +2768,6 @@ header nav.wed_mobile_menu_hor_padding ul li a,
     position: absolute;
     bottom: 40px;
     text-decoration: none;
-    font: 12px/18px Josefin Slab, Arial;
     color: #333;
     width: 40px;
     left: 50%;
@@ -2935,7 +2840,6 @@ header nav.wed_mobile_menu_hor_padding ul li a,
     font-style: normal;
     width: 100%;
     display: inline-block;
-    font: 300 24px/48px Lato, Arial;
 }
 
 .wed_event_hours p {
@@ -3030,10 +2934,11 @@ h2.wed_without_after {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     position: absolute;
-    padding: 29px 25px;
-    background-color: #e4d4fb;
+    padding: 49px 45px;
+    background-color: #fff;
     border-radius: 59px;
-    width: 120px;
+    width: 180px;
+    text-align: center;
 }
 
 .wed_blue .wed_story_content {
@@ -3064,10 +2969,6 @@ h2.wed_without_after {
 
 .wed_floral .wed_story_content {
     background-color: #d5fbff;
-}
-
-.wed_month_year {
-    font: 300 26px/32px hensa, Arial;
 }
 
 .wed_story_small_img img {
@@ -4388,35 +4289,35 @@ img.wed_img_height {
 
 .wed_heart_container_row_4 .wed_fourth_heart_1 {
     position: absolute;
-    height: 10px;
+    height: 20px;
     -webkit-animation: heart2 9.9s both infinite;
     -moz-animation: heart2 9.9s both infinite;
     -ms-animation: heart2 9.9s both infinite;
     -o-animation: heart2 9.9s both infinite;
     animation: heart2 9.9s both infinite;
-    left: 23%;
+    left: 27%;
 }
 
 .wed_heart_container_row_4 .wed_fourth_heart_2 {
     position: absolute;
-    height: 10px;
+    height: 20px;
     animation: heart2 6.9s both infinite;
     -o-animation: heart2 6.9s both infinite;
     -ms-animation: heart2 6.9s both infinite;
     -moz-animation: heart2 6.9s both infinite;
     -webkit-animation: heart2 6.9s both infinite;
-    left: 23%;
+    left: 27%;
 }
 
 .wed_heart_container_row_4 .wed_fourth_heart_3 {
     position: absolute;
-    height: 10px;
+    height: 20px;
     animation: heart2 4.9s both infinite;
     -o-animation: heart2 4.9s both infinite;
     -ms-animation: heart2 4.9s both infinite;
     -moz-animation: heart2 4.9s both infinite;
     -webkit-animation: heart2 4.9s both infinite;
-    left: 23%;
+    left: 27%;
 }
 
 
@@ -4563,7 +4464,6 @@ img.wed_img_height {
 .wed_team_box h4 b {
     display: inline-block;
     margin: 8px 0;
-    font: 900 26px/38px Lato, Arial;
 }
 
 .wed_team_box {
@@ -4644,8 +4544,6 @@ img.wed_img_height {
     -o-transition: all 1s;
     transition: all 1s;
 }
-
-.wed_icon_box:hover .wed_item_social {}
 
 .wed_icon_box:hover .wed_icon_box_photo:after {
     -webkit-transition: all 0.3s linear;
@@ -4785,7 +4683,6 @@ img.wed_img_height {
 }
 
 .wed_news_title {
-    font: 400 24px/32px Lato, Arial;
     display: block;
     margin-bottom: 10px;
 }
@@ -4821,7 +4718,6 @@ img.wed_img_height {
 }
 
 .wed_icon_box h4 {
-    font: 500 16px Lato, Arial;
     text-transform: uppercase;
     line-height: 1.225;
     color: #333;
@@ -4860,7 +4756,6 @@ img.wed_img_height {
 
 .wed_icon_box h4 strong {
     display: block;
-    font: 700 60px/60px Lato, Arial;
     margin-bottom: 20px;
 }
 
@@ -4932,7 +4827,6 @@ img.wed_img_height {
 
 .wed_testimonials b {
     display: block;
-    font: 400 20px/30px, Bree Serif Arial;
     margin-bottom: 10px;
 }
 
@@ -5095,7 +4989,6 @@ img.wed_img_height {
 
 .wed_service_block h4 {
     margin: 15px 0 0;
-    font: 900 30px/30px Lato, Arial;
     text-transform: uppercase;
 }
 
@@ -5346,8 +5239,6 @@ footer a {
 
 /*08.1 Portfolio*/
 
-.container-fluid .wed_portfolio_item {}
-
 .grid-sizer {
     width: 33.3333%;
 }
@@ -5454,13 +5345,11 @@ footer a {
 }
 
 .wed_port_title {
-    font: 400 24px/28px Lato, Arial, sans-serif;
     display: block;
     width: 100%;
 }
 
 .wed_port_subtitle {
-    font: 400 18px/28px Lato, Arial, sans-serif;
     display: block;
     width: 100%;
 }
@@ -5826,7 +5715,6 @@ footer a {
 }
 
 .wed_post_title h3 {
-    font: 600 18px/32px Lato, Arial;
     text-transform: uppercase;
     margin: 0;
 }
@@ -5897,12 +5785,9 @@ footer a {
 }
 
 .widget h6 {
-    font: 600 18px/28px Lato, Arial;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-
-.list-unstyled li {}
 
 .list-unstyled .date {
     display: block;
@@ -6391,7 +6276,6 @@ h3.title {
 /*08.15 Cart*/
 
 .table_head {
-    font: 600 18px/28px Lato, Arial;
     margin: 10px 0 20px;
     text-transform: uppercase;
 }

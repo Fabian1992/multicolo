@@ -1599,10 +1599,6 @@ dl dd {
     background-color: transparent;
 }
 
-.bg-primary {
-    background-color: ;
-}
-
 .bg-white {
     background-color: #FFF;
 }
@@ -1947,9 +1943,6 @@ dl dd {
 
 
 /*effect 9*/
-
-.dlab-img-overlay9:before,
-.dlab-img-overlay9:after {}
 
 .dlab-img-overlay9:after {
     left: auto;
@@ -2694,7 +2687,6 @@ label {
 
 input[type=checkbox],
 input[type=radio] {
-    display: ;
     opacity: 0;
     margin-left: 1px !important;
     position: absolute;
@@ -4075,9 +4067,6 @@ blockquote:before {
         display: block;
         padding: 4px 0;
     }
-    .header-nav .nav>li>a {
-        padding: ;
-    }
     .header-nav .nav i {
         margin-top: 6px;
     }
@@ -5004,8 +4993,6 @@ blockquote:before {
     opacity: 0.8;
 }
 
-.next-element i {}
-
 .dlab-bnr-inr .breadcrumb-row ul li:after,
 .dlab-bnr-inr .breadcrumb-row ul li:last-child {
     color: #fff;
@@ -5281,8 +5268,6 @@ blockquote:before {
 
 
 /* owl dots style */
-
-.owl-theme.dots-style-1 .owl-dots .owl-dot {}
 
 .owl-theme.dots-style-1 .owl-dots .owl-dot span,
 .owl-theme.dots-style-2 .owl-dots .owl-dot span {
@@ -7333,7 +7318,6 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .widget-testimonial .testimonial-position {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
-    color: #888q;
     font-size: 12px;
     font-style: inherit;
 }
@@ -8738,7 +8722,7 @@ a,
 .site-button-link.yellow:hover,
 .site-button-link.yellow:active,
 .site-button-link.yellow:focus {
-    color: ##d4af19;
+    color: #d4af19;
 }
 
 
@@ -13051,8 +13035,6 @@ ul[class*="list-"] {
 
 /* pagination color */
 
-.pagination-bx.primary {}
-
 .pagination-bx.primary .pagination>li>a,
 .pagination-bx.primary .pagination>li>span {
     background-color: #1abc9c;
@@ -13568,8 +13550,6 @@ footer.footer-white .footer-bottom a {
 
 
 /*= Section Content Part =*/
-
-.section-content {}
 
 @media only screen and (max-width: 1024px) {
     .section-full {
@@ -14325,8 +14305,6 @@ ol.commentlist li .star-rating {
         width: 100%;
         display: block;
     }
-    .team-mamber-img,
-    .team-info-box {}
 }
 
 
@@ -15406,8 +15384,6 @@ ol.commentlist li .star-rating {
     margin: 15px 0 15px;
 }
 
-.shop-categories .collapsed {}
-
 .shop-categories .acod-head a.collapsed:after,
 .shop-categories .acod-head a:after {
     font-family: open sans;
@@ -15634,8 +15610,6 @@ ol.commentlist li .star-rating {
     opacity: 0.8;
 }
 
-.site-filters .filter-curs li {}
-
 .site-filters .filter-curs li.active a {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1ebbf0+8,39dfaa+100 */
     background: #1ebbf0;
@@ -15702,8 +15676,6 @@ ol.commentlist li .star-rating {
     padding: 9px 30px;
     text-transform: uppercase;
 }
-
-.buy-now a:hover {}
 
 .trigger-logo {
     border-right: 1px solid rgba(0, 0, 0, 0.1);
@@ -16058,8 +16030,6 @@ ol.commentlist li .star-rating {
 
 
 /* Plugine box */
-
-.plugine-box {}
 
 
 /* 	Hover Effects 

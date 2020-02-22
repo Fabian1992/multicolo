@@ -13,9 +13,9 @@
 	<link href="{{ asset('admin/font/fontawesome-free-5.9.0-web/css/all.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('client/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
  
-    {{-- <link href="{{ asset('client/css/responsive.css') }}" rel="stylesheet" type="text/css"> --}}
+    <link href="{{ asset('client/css/responsive.css') }}" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="{{asset('client/css/style.css')}}">
-    {{-- <link href="{{ asset('client/css/min.css') }}" rel="stylesheet" type="text/css"> --}}
+    <link href="{{ asset('client/css/min.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ asset('client/css/animate.css') }}">
     <!-- STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="{{asset('client/css/plugins.css')}}">
@@ -25,6 +25,7 @@
      <link rel="stylesheet" href="{{ asset('client/css/open-iconic-bootstrap.min.css') }}">   
     
     <link href="{{ asset('client/css/wedding_library.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('client/css/wedding_style.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ asset('client/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('client/css/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('client/css/magnific-popup.css') }}">
@@ -32,14 +33,14 @@
 
 </head>
 <body id="bg">
-    <div id="loading-area"><div class="la-anim-10"></div></div>
+    
     <!-- Preloader -->
      <div class="wed_page_loader">
         <div class="wed_story_content">
             <div class="wed_heart_container_row_4">
-                <img class="wed_fourth_heart_1" src="{{ asset('client/images/logolocal.png') }}" alt="">
-                <img class="wed_fourth_heart_2" src="{{ asset('client/images/logolocal.png') }}" alt="">
-                <img class="wed_fourth_heart_3" src="{{ asset('client/images/logolocal.png') }}" alt="">
+                <img class="wed_fourth_heart_1" src="{{ asset('client/images/logop1.png') }}" alt="">
+                <img class="wed_fourth_heart_2" src="{{ asset('client/images/logop2.png') }}" alt="">
+                <img class="wed_fourth_heart_3" src="{{ asset('client/images/logop3.png') }}" alt="">
             </div>
             <div class="wed_story_small_img">
                 <img src="{{ asset('client/images/logolocal.png') }}" alt="">
