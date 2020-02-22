@@ -220,7 +220,7 @@
                     </div>
                 </div>
                       
-                <div class="slider-item js-fullheight" style="background-image: url({{asset('nuevos/images/bg_3.jpg')}});">
+                <div class="slider-item js-fullheight" style="background-image: url({{asset('client/images/bg_3.jpg')}});">
                     <div class="overlay"></div>
                     <div class="container">
                     <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -283,7 +283,7 @@
 </div>
 <!-- JavaScript  files ========================================= -->
 <script src="{{asset('client/js/jquery-3.2.1.min.js')}}"></script><!-- JQUERY.MIN JS -->
-<script src="{{asset('nuevos/jquery-migrate-3.0.1.min.js')}}"></script>
+<script src="{{asset('client/js/jquery-migrate-3.0.1.min.js')}}"></script>
     <script src="{{asset('client/js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
     
     <script src="{{ asset('admin/js/blockui.min.js') }}"></script>
