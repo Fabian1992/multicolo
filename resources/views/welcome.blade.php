@@ -237,7 +237,7 @@
             </section>      
             <!-- Slider END -->
             <!-- About Us -->
-            <div class="section-full content-inner bg-white">
+            <div class="section-full content-inner bg-white" style="background-image:url({{ asset('client/images/background/bg15.jpg') }}); background-size:cover">
                 <div class="container">
                     <div class="max-w800 m-auto text-center wow fadeIn" data-wow-delay="0.1s">
                         <h6>About Digital Agency</h6>
