@@ -14,3 +14,714 @@ body {
     max-width: 400px;
     height: auto;
 }
+
+
+/* nuevo estilo */
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .owl-item {
+    opacity: .4;
+}
+
+.owl-carousel .owl-item.active {
+    opacity: 1;
+}
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: -10px;
+    color: #c8a97e !important;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+
+.owl-carousel .owl-nav .owl-prev span:before,
+.owl-carousel .owl-nav .owl-next span:before {
+    font-size: 30px;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    left: 0;
+}
+
+.owl-carousel .owl-nav .owl-next {
+    right: 0;
+}
+
+.owl-carousel:hover .owl-nav .owl-prev,
+.owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+}
+
+.owl-carousel:hover .owl-nav .owl-prev {
+    left: -25px;
+}
+
+.owl-carousel:hover .owl-nav .owl-next {
+    right: -25px;
+}
+
+.owl-carousel.home-slider {
+    position: relative;
+    height: 659px;
+    z-index: 0;
+}
+
+.owl-carousel.home-slider .slider-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 659px;
+    position: relative;
+    z-index: 0;
+}
+
+@media (max-width: 1199.98px) {
+    .owl-carousel.home-slider .slider-item {
+        background-position: center center !important;
+    }
+}
+
+.owl-carousel.home-slider .slider-item .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: .7;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text {
+    color: #fff;
+    height: 659px;
+    text-align: right;
+}
+
+@media (max-width: 767.98px) {
+    .owl-carousel.home-slider .slider-item .slider-text {
+        text-align: center;
+    }
+}
+
+.subheading {
+    font-size: 90px;
+    color: #c8a97e;
+    font-weight: normal;
+    font-family: "Great Vibes", cursive !important;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: normal;
+    font-family: "Poppins", Arial, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 30px;
+    }
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p.sub-p {
+    font-weight: 400;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p strong {
+    font-weight: 700;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p strong a {
+    color: #fff;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .unstyled-list {
+    width: 50%;
+    padding: 0;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .unstyled-list li {
+    list-style: none;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .breadcrumbs {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span a {
+    color: #fff;
+}
+
+.owl-carousel.home-slider .owl-nav .owl-prev span,
+.owl-carousel.home-slider .owl-nav .owl-next span {
+    color: #fff;
+}
+
+.owl-carousel.home-slider:hover .owl-nav .owl-prev,
+.owl-carousel.home-slider:hover .owl-nav .owl-next {
+    opacity: 1;
+}
+
+.owl-carousel.home-slider:hover .owl-nav .owl-prev {
+    left: 20px;
+}
+
+.owl-carousel.home-slider:hover .owl-nav .owl-next {
+    right: 20px;
+}
+
+.owl-carousel.home-slider .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 767.98px) {
+    .owl-carousel.home-slider .owl-dots {
+        bottom: 5px;
+    }
+}
+
+.owl-carousel.home-slider .owl-dots .owl-dot {
+    width: 18px !important;
+    height: 18px !important;
+    margin: 5px;
+    border-radius: 50%;
+    background: #e6e6e6;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    outline: none !important;
+    position: relative;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    display: inline-block;
+}
+
+.owl-carousel.home-slider .owl-dots .owl-dot span {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50% !important;
+    left: 50%;
+    top: 50%;
+    display: block;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.owl-carousel.home-slider .owl-dots .owl-dot.active {
+    border: 2px solid white;
+}
+
+.owl-carousel.home-slider .owl-dots .owl-dot.active span {
+    background: white;
+}
+
+.owl-custom-nav {
+    float: right;
+    position: relative;
+    z-index: 10;
+}
+
+.owl-custom-nav .owl-custom-prev,
+.owl-custom-nav .owl-custom-next {
+    padding: 10px;
+    font-size: 30px;
+    background-color: #f79029;
+    background: #ccc;
+    line-height: 0;
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+}
+
+.owl-carousel .owl-nav button .fas {
+    position: relative;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    line-height: 60px;
+    border: 0;
+    background-color: #f79029;
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* animaciones imagenes */
+
+
+/*Flowers*/
+
+.mobile .petals_mobile .wed_flowers {
+    display: none;
+}
+
+
+/*Roses*/
+
+.wed_vid_bg.wed_third_step .wed_flowers {
+    z-index: 0;
+}
+
+.wed_flowers {
+    position: absolute;
+    z-index: 14;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    opacity: 1;
+}
+
+.wed_third_step .wed_flowers.wed_flowers_slider_only {
+    opacity: 0;
+}
+
+.wed_fl {
+    position: absolute;
+    transition: all 2s;
+    transform: scale(1);
+}
+
+.wed_fl1 {
+    position: absolute;
+    transform: scale(1);
+}
+
+.wed_fl_1 {
+    top: 260px;
+    left: 7;
+    transform: scale(0.7);
+}
+
+@media screen and (max-width: 992px) {
+    .subheading {
+        font-size: 90px;
+    }
+    .letras-slider {
+        font-size: 19px !important;
+        min-width: 496x !important;
+    }
+    .wed_fl_2 {
+        top: 240px !important;
+        max-width: 70px !important;
+        left: 5% !important;
+    }
+    .wed_fl_3 {
+        top: 220px !important;
+        max-width: 70px !important;
+        left: 10% !important;
+    }
+    .wed_fl_19 {
+        top: 250px !important;
+        max-width: 70px !important;
+        right: 14% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subheading {
+        font-size: 70px;
+    }
+    .letras-slider {
+        font-size: 18px !important;
+        min-width: 470px !important;
+    }
+    .wed_fl_2 {
+        top: 230px !important;
+        max-width: 70px !important;
+        left: 5% !important;
+    }
+    .wed_fl_3 {
+        top: 200px !important;
+        max-width: 70px !important;
+        left: 4% !important;
+    }
+    .wed_fl_7 {
+        top: 300px !important;
+        max-width: 80px !important;
+        right: 9% !important;
+    }
+    .wed_fl_9 {
+        top: 90px !important;
+        max-width: 70px !important;
+        left: 16% !important;
+    }
+    .wed_fl_14 {
+        top: 300px !important;
+        max-width: 80px !important;
+        left: 9% !important;
+    }
+    .wed_fl_15 {
+        left: 9% !important;
+    }
+    .wed_fl_16 {
+        top: 100px !important;
+        right: 15% !important;
+        transform: scale(0.9) !important;
+    }
+    .wed_fl_17 {
+        transform: scale(1.0) !important;
+        right: 9% !important;
+    }
+    .wed_fl_18 {
+        top: 160px !important;
+        right: 1% !important;
+        transform: scale(0.4) !important;
+    }
+    .wed_fl_19 {
+        top: 260px !important;
+        max-width: 70px !important;
+        right: 10% !important;
+    }
+}
+
+.wed_fl_2 {
+    top: 210px;
+    left: 4%;
+    transform: scale(0.7);
+}
+
+.wed_fl_3 {
+    top: 210px;
+    left: 15%;
+    transform: scale(1);
+}
+
+.wed_fl_4 {
+    top: 650px;
+    left: 7%;
+}
+
+.wed_fl_5 {
+    top: 50px;
+    left: 10%;
+    transform: scale(0.6);
+}
+
+.wed_fl_6 {
+    top: 490px;
+    left: 9%;
+    transform: scale(0.7);
+}
+
+.wed_fl_7 {
+    top: 260px;
+    right: 12%;
+}
+
+.wed_fl_8 {
+    top: 490px;
+    right: 84px;
+}
+
+.wed_fl_9 {
+    top: 110px;
+    left: 19%;
+}
+
+.wed_fl_12 {
+    top: 360px;
+    right: 8%;
+}
+
+.wed_fl_10 {
+    top: 650px;
+    right: 100px;
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+.wed_fl_11 {
+    top: 260px;
+    right: 8px;
+    transform: scale(0.7);
+}
+
+.wed_fl_13 {
+    top: 360px;
+    left: 4%
+}
+
+.wed_fl_14 {
+    top: 300px;
+    left: 9%;
+}
+
+.wed_agency .wed_fl_14 {
+    top: 300px;
+    left: 0%;
+}
+
+.wed_fl_15 {
+    top: 140px;
+    left: 11%;
+}
+
+.wed_fl_16 {
+    top: 110px;
+    right: 21%;
+}
+
+.wed_fl_17 {
+    top: 140px;
+    right: 13%;
+}
+
+.wed_fl_18 {
+    top: 140px !important;
+    right: 8%;
+    transform: scale(0.5);
+}
+
+.wed_fl_19 {
+    top: 210px;
+    right: 18%;
+    transform: scale(1);
+}
+
+.wed_fl_20 {
+    top: 50px;
+    right: 16%;
+    transform: scale(0.6);
+}
+
+
+/* nuevos css para las imagenes de la parte inferio del slider */
+
+.ftco-no-pb {
+    padding-bottom: 0;
+}
+
+.ftco-no-pt {
+    padding-top: 0;
+}
+
+.ftco-section {
+    padding: 7em 0;
+    position: relative;
+}
+
+.abut-slider {
+    z-index: 8;
+    min-width: 280px;
+    max-width: 280px;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 60px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px 30px 30px 30px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.primeraMayuscula {
+    text-transform: capitalize;
+    z-index: 7;
+    min-width: 640px;
+    max-width: 640px;
+    white-space: normal;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* video {
+    width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+#player-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ccc;
+    z-index: 999;
+} */
+
+.boton-acerca {
+    z-index: 8;
+    min-width: 280px;
+    max-width: 280px;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 60px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    border-radius: 30px;
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: center;
+    margin: 0px;
+    padding: 2px 50px;
+    letter-spacing: 0px;
+    min-height: 0px;
+    max-height: none;
+    filter: brightness(100%);
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    border-width: 0px;
+}
+
+.wed_page_loader {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fefefe;
+    z-index: 100000;
+}
+
+.wed_loader {
+    background-image: url("client/images/logolocal.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+
+/*06.1 Our Love story*/
+
+h2.wed_without_after:after {
+    display: none;
+}
+
+h2.wed_without_after {
+    margin-bottom: 120px;
+}
+
+.wed_topstory_titile p {
+    margin-bottom: 90px;
+}
+
+.wed_story_center {
+    width: 100%;
+    height: 400px;
+    z-index: 99;
+}
+
+.wed_story_content {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    padding: 29px 25px;
+    background-color: #e4d4fb;
+    border-radius: 59px;
+    width: 120px;
+}
+
+.wed_blue .wed_story_content {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    padding: 29px 25px;
+    background-color: #bcdfff;
+    border-radius: 59px;
+    width: 120px;
+}
+
+.wed_red .wed_story_content {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    padding: 29px 25px;
+    background-color: #ffcbcb;
+    border-radius: 59px;
+    width: 120px;
+}
+
+.wed_vid_bg .wed_story_content {
+    background-color: #fff;
+}
+
+.wed_floral .wed_story_content {
+    background-color: #d5fbff;
+}
+
+.wed_month_year {
+    font: 300 26px/32px hensa, Arial;
+}
+
+.wed_story_small_img img {
+    height: 60px;
+}
+
+img.wed_small_img {
+    height: 100px;
+}

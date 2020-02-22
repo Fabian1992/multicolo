@@ -1,1065 +1,473 @@
-/*===============================================*/
-/* 09. Mobile, Tablet                            */
-/*===============================================*/
-
-
-/*Responsive*/
-@media (max-width:1430px) {
-	  .wed_agency .wed_fl_2 {
-    top: 300px;
-    left: 0%;
-    transform:scale(0.4);
-  }
-  .wed_agency .wed_fl_14 {
-    top: 300px;
-    left: 0%;
-    transform:scale(0.6);
-  }
-    .wed_agency .wed_fl_18 {
-    right: 2%;
-    transform:scale(0.4);
-  }
-   .wed_agency .wed_fl_7 {
-    transform:scale(0.6);
-  }
-
+@media (max-width: 1800px) {
+    .about-area:after {
+        right: 0px !important;
+    }
+    .about-area2:after {
+        right: 0;
+    }
 }
 
-@media (max-width:1200px) {
-	/*Story*/
-	.wed_bd:hover .wed_second_border {
-	  top: 0;
-	  right: 13px;
-	}
-	.wed_bd:hover .wed_second_border_right {
-		top: 0;
-	  left: 13px;
-	}
-	.wed_second_border,
-	.wed_second_border_right {
-		width: 93%;
-	}
-	/*Multipage*/
-	.wed_img_1 {
-		margin-left: -30px;
-	}
-	.wed_img_2 {
-		margin-right: -30px;
-	}
-	 .wed_agency .wed_fl_20 {
-	 	right: 0%;
-	 }
-	 .wed_agency .wed_fl_5 {
-	 	left: -3%;
-	 }
+@media (max-width: 1600px) {
+	.about-area:after {
+        right: 0 !important;
+        opacity: .1;
+    }
+    .about-area2:after {
+        right: -170px !important;
+    }
+    .slider-one-area .owl-nav{
+        display: none;
+    }
 }
-@media (max-width:1100px){
-	.wed_simple_block {
-		padding: 56px 45px 46px;
-	}
-	h2.wed_without_after {
-		margin-top: 30px;
-		margin-bottom: 50px;
-	}
-	/*Portfolio Poloroid*/
-	.wed_portfolio_poloroid,
-	.wed_portfolio_poloroid.wed_news_poloroid {
-		margin:0px auto;
-		position:relative;
-		height:900px;
-		width:600px;
-		margin-bottom: 200px;
-		margin-top: 80px;
-	}  
-	.wed_agency .wed_fl_6 {
-    transform:scale(0.7);
-  }
-	.wed_agency .wed_fl_8 {
-    transform:scale(0.7);
-  }
-	/*Story*/
-		img.wed_img_height {
-		min-width: 400px;
-	}
-	/*Multipage*/
-	.wed_name_left,
-	.wed_name_right {
-		display: none;
-	}
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.slider-one-area .single-slide .content h1 {
+        font-size: 30px;
+    }
+    .slider-one-area .owl-nav{display: none;}
+    .header-top-area .header-top-left ul li {
+        margin-right: 4px;
+    }
+    .header-one-area .header-right ul li {
+        margin-left: 12px;
+    }
+    .header-top-area .header-top-left ul,
+    .header-one-area .main-menu nav ul {
+        text-align: center;
+    }
 
-}
-@media (max-width:1024px){
-	h3 {
-		font: 400 42px/48px Bree Serif, Arial;
-	}
-	.wed_fixed, 
-	.tablet .wed_fixed {
-		background-attachment:scroll!important;
-	}
-}
+    .header-one-area .header-right ul li a i {
+        font-size: 17px;
+    }
+    .blog-page-area .single-blog .content h3 a {
+        font-size: 18px;
+    }
+    .comments-area .comments-list ul li .comment-info {
+        width: 399px;
+    }
+    .comments-area .comments-list ul li:nth-child(2) .comment-info {
+        width: 299px;
+    }
+    .header-one-area.header-two-area .header-right ul li {
+        margin-left: 13px;
+    }
+    .project2-area .project-menu ul li {
+        padding: 10px 30px;
+    }
+    .shop-details-area .product-image .nav-tabs li {
+        width: 24%;
+    }
+    .sidebar-area .widget.widget_categories ul li a {
+        margin-right: 30px;
+    }
+    .sidebar-area .widget.widget_categories ul li span {
+        top: 10px;
+    }
+    .sidebar-area .widget.widget_tag_cloud .tagcloud a {
+        padding: 5px 7px;
+    }
+    .contact-page-area .single-contact {
+        padding: 30px 10px;
+    }
+    .counterup-area .counter-content .counter-inner-content .counter {
+        color: #fff;
+        position: relative;
+        font-size: 32px;
+        margin-bottom: 0px; 
+        padding-bottom: 0px; 
+    }
+    .counterup-area .counter-content .counter-inner-content p {
+        font-size: 16px;
+    }
 
-@media (max-width:1000px){
 
-	.mobile .wed_iphone,
-	.wed_top_menu, 
-	.wed_header_address,
-	.wed_browsers,
-	.wed_logo_und,
-	.mobile.landscape .wed_slide_desq,
-	.mobile.landscape .wed_scroll_down,
-	.wed_first_step .wed_header_lang ul  {
-		display: none;
-	}
-
-	.wed_section_outter,
-	.wed_section_inner,
-	.wed_section_innerpage {
-		text-align: center;
-	}
-	.wed_icon_box i {
-		position: relative;
-	}
-	.wed_icon_box_content {
-		padding: 0;
-	}
-		.wed_icon_box h4:after,
-		.text-left .wed_icon_box h4:after,
-		.text-right .wed_icon_box h4:after {
-			margin-left: auto;
-			margin-right: auto;
-		}
-	.wed_header_lang {
-		right: 15px;
-	}
-	.wed_slide_title {
-		font:900 40px Lato, Arial;
-		width: 100%;
-		text-align: center;
-	}
-		.wed_slide_title:after {
-			margin: 20px auto;
-		}
-	.wed_slide_desq {
-		font:400 18px Lato, Arial;
-		text-align: center;
-	}
-	.wed_slide_txt,
-	.wed_slide_txt.wed_slide_center_middle, 
-	.wed_slide_txt.wed_slide_center_top, 
-	.wed_slide_txt.wed_slide_center_bottom {
-		width: 100%;
-		left: 0;
-		top: 50%;
-		transform:translateY(-50%);
-		padding: 0 10px;
-	}
-
-	.mobile.landscape .wed_slide_txt {
-		padding: 0 25px;
-	}
-
-		.wed_great_titles h2:after {
-			margin: 20px auto;
-		}
-		h2:after {
-			margin: 20px auto;
-		}
-	.wed_section_inner .container {
-		padding-top: 96px;
-		padding-bottom: 96px;
-	}
-	.wed_section_outter .container {
-		padding-top: 26px;
-		padding-bottom: 26px!important;
-	}
-	.wed_section_innerpage .container,
-	.wed_section_innerpage .container-fluid {
-		padding-top: 24px;
-    padding-bottom: 12px;
-	}
-	.wed_row_padding {
-		padding-bottom: 10px;
-	}
-	.text-left, .text-right {
-		text-align: center;
-	}
-
-	header nav {
-		height: 52px;
-		background: rgba(255,255,255,0.7);
-	}
-	.wed_around_bl,
-	.wed_around_bl:last-child,
-	.wed_icon_box:last-child,
-	.wed_icon_box {
-		margin-bottom: 30px;
-	}
-	.text-center .wed_icon_box .wed_icon_box_content {
-		padding-left: 0;
-	}
-	header nav.wed_transp_nav {
-		background: none;
-	}
-	.wed_second_step .wed_top_menu li.current:before {
-		top: 16%;
-		left: 65px;
-		background-image: url(../images/arrow_wht.png);
-		width: 100px;
-		height: 9px;
-	}
-	.wed_first_step header nav.wed_transp_nav {
-		background: rgba(255,255,255,0.9);
-	}
-	.wed_logo,
-	.tablet.portrait .wed_logo {
-		top: 17px;
-		z-index: 3;
-	}
-
-	.wed_header_tech {
-		height: 26px;
-		padding: 0;
-	}
-		.wed_first_step .wed_header_tech {
-			height: 0;
-		}
-	.wed_header_lang .wed_parent ul {
-		padding: 1px 0 0 0;
-	}
-	.wed_portfolio_item,
-	.container-fluid .wed_portfolio_item  {
-		width: 100%;
-	}
-	.wed_port_titles {
-		text-align: left;
-	}
-	.wed_slider_copyright {
-		left: 10px;
-		bottom: 20px;
-	}
-	.wed_top {
-		width: 40px;
-		height: 40px;
-		right: 20px;
-		bottom: 20px;
-	}
-
-	.wed_middle_titles h2 {
-		font:900 64px hensa, Arial;
-	}
-	.wed_wht_txt .wed_small_arrow h2:after {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.wed_portfolio_footer_grey:after,
-	.wed_portfolio_footer_white:after {
-		display: none;
-	}
-	.wed_team_slider .owl-prev {
-		left: 20px;
-	}
-	.wed_team_slider .owl-next {
-		right: 20px;
-	}
-	.wed_auto_height .wed_image_bck[data-image] {
-		min-height: 400px;
-	}
-	.wed_simple_block {
-		padding: 56px 15px 46px;
-	}
-	.wed_simple_block h2:after, 
-	h2:after {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.wed_news_block {
-		margin-bottom: 40px;
-		text-align: center;
-	}
-	.wed_news_img {
-		height: auto;
-	}
-	.form-control {
-		margin-bottom: 10px;
-	}
-	form {
-		margin-bottom: 20px;
-	}
-	.wed_icon_boxes {
-		margin-top: 0;
-	}
-	.wed_icon_box:last-child, .wed_anim_box:last-child {
-		margin-bottom: 0;
-	}
-	footer {
-		text-align: center;
-	}
-	footer h4:after {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	/*Inside Pages*/
-	.breadcrumbs {
-		text-align: center;
-	}
-	.wed_page_title_great {
-		padding-top: 95px;
-	}
-
-	/*Mobile Top Menu*/
-	.wed_top_menu {
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		padding-top: 50px;
-	}
-	.wed_top_menu_cont:after {
-		display: block;
-		content: '';
-		width: 100%;
-		height: 52px;
-		background: #000;
-		left: 0;
-		right: 0;
-		top: 0;
-		position: fixed;
-	}
-	.wed_top_menu_cont {
-		background: rgba(0,0,0,0.95);
-		position: fixed;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		overflow: auto;
-		display: none;
-	}
-	.wed_header_search_cont input {
-		margin-bottom: 0;
-	}
-	.wed_header_search_cont form {
-		margin-bottom: 0;
-	}
-	.wed_header_search_cont {
-		width: 100%;
-	}
-	.wed_first_step .wed_transp_nav .wed_top_menu a:hover,
-	.wed_first_step header nav.wed_transp_nav ul a {
-		color: #fff;
-	}
-	.wed_top_menu > li > a {
-		padding: 13px 25px;
-		height: 52px;
-		color: #fff!important;
-	}
-	.wed_top_menu > li > a:before {
-		display: none!important;
-	}
-	.tablet.portrait .wed_top_menu > li > a {
-		padding: 13px 25px;
-		height: 52px;
-		color: #fff;
-	}
-	.wed_parent ul, 
-	.wed_parent ul.mega-menu, 
-	.wed_parent ul, 
-	.wed_parent ul.mega-menu {
-		position: relative;
-		white-space:normal;
-		width: 100%;
-		background: none;
-	}
-	.wed_transp_nav .wed_top_menu li:hover > a:before {
-		display: none;
-	}
-	.wed_parent ul .mega-menu-column {
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	header nav ul.wed_top_menu li {
-		float: none;
-		height: auto;
-	}
-	/*Mobile Menu*/
-	.wed_top_menu_mobile_link {
-		position: absolute;
-		right: 0;
-		top: 0;
-		font-size: 18px;
-		padding: 15px;
-		display: none;
-		cursor: pointer;
-		z-index: 3;
-	}
-
-	.wed_top_menu_mobile_link,
-	.active .wed_top_menu_mobile_link {
-		display: block;
-		right: 0;
-	}
-	.wed_header_search {
-		display: none;
-	}
-	.wed_header_search span {
-		padding: 15px;
-		color: #fff;
-		font-size: 18px;
-	}
-
-	header nav.active .wed_top_menu_mobile_link, 
-	header nav.active .wed_logo {
-		color: #fff;
-	}
-	/*Portfolio*/
-	.wed_port_title {
-		font: 400 18px/24px Lato, Arial,sans-serif;
-	}
-	.wed_port_subtitle {
-		font: 400 14px/22px Lato, Arial,sans-serif;
-	}
-	/*Text Align*/
-	.mobile-text-left {
-		text-align: left;
-	}
-	.mobile-text-right {
-		text-align: right;
-	}
-
-	.wed_mobile_menu {
-		display: none;
-	}
-	.wed_mobile_menu_hor_padding,
-	.wed_mobile_menu_hor_padding.active,
-	.wed_first_step header nav.wed_mobile_menu_hor_padding {
-		top: 0;
-		left: 0;
-		right: 0;
-		opacity: 1;
-		pointer-events:auto;
-	}
-	.tablet .wed_auto_height .wed_slider_copyright {
-		left: 20px;
-	}
-	.wed_auto_height .wed_slider_copyright {
-		left: 20px;
-	}
-	.wed_slider_copyright.wed_slider_copyright_right,
-	.wed_slider_copyright_right {
-		left: auto;
-		right: 20px;
-	}
-	.wed_slide_txt {
-		text-align: center;
-		bottom: auto;
-		top: 50%;
-		transform:translateY(-50%);
-		left: 0;
-	}
-	.wed_team_slider_single .wed_news_block {
-		width: 100%;
-	}
-	.reply {
-		padding-left: 20px;
-		text-align: left;
-	}
-	.add-to-box {
-		text-align: center;
-	}
-	.add-to-cart {
-		margin-right: auto;
-		margin-left: auto;
-	}
-	/*Header Login Form*/
-	.wed_header_login .btn {
-		padding: 5px 15px;
-	}
-	.wed_header_login {
-		padding: 12px 0;
-		margin-right: 40px;
-		position: relative;
-		z-index: 3;
-	}
-	/*Story*/
-	.wed_story_row {
-		margin-bottom: 0;
-	}
-	.wed_second_border_right,
-	.wed_second_border {
-    height: 98%;
-    width: 93%;
-    border: 4px solid #e4d4fb;
-    position: absolute;
-    z-index: 1;
-    top: -16px;
-    left: 31px;
-	}
-	.wed_portfolio_item_cont.wed_story_cont {
-	  margin-bottom: 40px;
-
-	}
-	.text-center p {
-		margin-bottom: 40px;
-	}
-	.wed_bd:hover .wed_second_border {
-	  top: 0;
-	  left: 13px;
-	  height: 91%;
-	}
-	.wed_bd:hover .wed_second_border_right {
-		top: 0;
-	  left: 13px;
-	  height: 91%;
-	}
-	.countdown-section {
-	  padding: 40px 50px 20px 50px;
-	  width: 100%;  
-	}
-	.wed_countdown .countdown-amount {
-		font-size: 84px;
-	}
-	/*Header Couple*/
-	.wed_couple_header.wed_white_couple {
-	  height: 30px;
-	  top: 8px;
-	  left: 19px;
-	}
-	.wed_first_step .wed_couple_header.wed_kissing_couple {
-	  top: 8px;
-	  height: 30px;
-	}
-	/*Multipage*/
-	.wed_margtop {
-		margin-top: 30px;
-	}
-/*	.wed_couple {
-		padding-bottom: 60px;
-	}*/
-.wed_heart_img_1 {
-	position: relative;
-	height: 417px;
-	width: 430px;
-}
-.wed_heart_img_2 {
-	position: relative;
-	height: 417px;
-	width: 430px;
-}
-.wed_heart_img_1:before,
- .wed_heart_img_2:before {
- 	bottom: 0;
- 	height: 421px;
- }
- .wed_event_hours p {
- 	padding: 0;
- }
+    
 }
 
-@media (max-width:992px){
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    .header-right {
+        display: none;
+    }
+    .shop-area .left-topbar, .shop-area .right-topbar {
+        text-align: center;
+        margin: 5px 0;
+    }
+    .slider-one-area .owl-nav{display: none;}
+    .header-one-area .logo-area a img {
+        width: auto;
+        margin: auto;
+        display: block;
+    }
+    .header-one-area .header-right ul li {
+        display: inline-block;
+        margin: 15px;
+        position: relative;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        transition: 0.5s;
+    }
+    .slider-one-area .single-slide .content h1 {
+        font-size: 22px !important;
+    }
+    .slider-one-area .single-slide .content p {
+        padding: 15px 0;
+        margin: 0 0 20px !important;
+    }
+    
+    .header-top-area .header-top-left ul,
+    .header-one-area .main-menu nav ul,
+    .header-top-area .header-top-right ul {
+        text-align: center;
+    }
+    .header-one-area .logo-area {
+        padding: 0 0 15px;
+    }    
+    .header-one-area .header-right ul {
+        text-align: center;
+    }
+    .about-image{
+        margin-bottom: 30px;
+    }
 
-	/*09.2 Tablet*/
-	.tablet.portrait .wed_logo_und {
-		display: none;
-	}
-	/*.wed_slide_txt {
-		width: 80%;
-	}*/
-	.wed_wrapper_frame {
-		margin-bottom: 0;
-	}
-	.wed_header_lang {
-		right: 15px;
-	}
-	.tablet.portrait .wed_browsers {
-		display: none;
-	}
+    .call-to-action-area .content h3 {
+        margin: 20px 0;
+    }
+    .call-to-action-area .button {
+        display: block;
+        text-align: center;
+    }
 
-	.tablet .wed_great_titles h2 {
-		font:900 56px Hensa, Arial;
-	}
+    /* stellarnav css responsive start */
+    .header-one-area .stellarnav.mobile.right > ul {
+        right: 0;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        z-index: 9;
+    }
+    .header-one-area .stellarnav ul li {
+        display: block !important;
+    }
+    .header-one-area .stellarnav ul li a{        
+        color: #f8f9fa !important;
+        padding: 20px !important;
+    }
+    .stellarnav.mobile.light ul {
+        text-align: center !important;
+    }
+    .header-one-area .stellarnav ul li ul ul {
+        top: 0;
+        right: 0px !important;
+        left: inherit;
+    }
+    .header-one-area .stellarnav ul li ul ul li {
+        border-bottom: 1px solid #ddd;
+    }
+    .header-one-area .stellarnav.mobile {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header-one-area .stellarnav.mobile.right .close-menu, .header-one-area .stellarnav.mobile.left .close-menu {
+        display: inline-block;
+        margin-top: 15px;
+    }
 
-	.tablet.portrait .wed_second_step .wed_logo,
-	.tablet.portrait .wed_logo {
-		top: 17px;
-	}
-	.tablet.portrait header nav {
-		height: 52px;
-	}
-	.tablet.portrait .form-control {
-		margin-bottom: 10px;
-	}
-	.text-center .wed_iphone_pink, 
-	.text-center .wed_iphone_gold {
-		height: 540px;
-		width: 185px;
-	}
+    /* stellarnav css responsive end */
+    .partner-area .partner-slider .single-partner img {
+        margin: auto;
+    }
+    .footer-area .widget {
+        margin: 15px 0;
+    }
+    .footer-area:after {
+        background-position: left bottom;
+    }
+    .slider-two-area .single-slide .content h1 {
+        font-size: 30px;
+    }
+    .newsletter-area .news-letter-bg img {
+        height: 180px;
+    }
+    .breadcumb-area {
+        padding: 100px 0;
+    }
+    .services-details-area .services-contact{
+        margin-bottom: 30px;
+    }
+    .comments-area .comments-list ul li .comment-info {
+        width: 450px;
+    }
+    .comments-area .comments-list ul li:nth-child(2) .comment-info {
+        width: 350px;
+    }
+    
+    .contact-page-area .single-contact {
+        margin: 15px 0;
+    }
+    .contact-page-area .single-contact {
+        padding: 30px;
+    }
+    .contact-page-area .single-contact .icon i {
+        position: relative;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .contact-page-area .single-contact .content {
+        margin-left: 0;
+        text-align: center;
+    }
+    .call-to-action-area .button a {
+        display: inline-block;
+    }
 
-	.wed_simple_block {
-		padding: 26px 45px 46px;
-		text-align: center;
-	}
-	.wed_mate_border:before {
-		top: -269px;
-	}
-  /*Story*/
-	.wed_story_txt {
-		margin-top: 20px;
-	}
-	.wed_story_txt p {
-		margin-bottom: 60px;
-	}
-	.wed_second_border_right,
-	.wed_second_border {
-    width: 96%;
-	}
-	.wed_story_row {
-		padding: 14px 0;
-	}
-		img.wed_img_height {
-		object-position: 0;
-	}
-	.wed_portfolio_slide_item img {
- 	 height: 300px!important;
-  }
-  .wed_vid_bg .wed_wht_txt,
-  .wed_wht_txt a,
-  .wed_wht_txt a i,
-  .wed_wht_txt .wed_icon_box h4 {
-  	color: #000;
-  }
-  .wed_vid_bg .wed_wht_txt h2:after {
-		background-image: url(../images/arrows_bottom_400.png);
-		width: 414px;
-    height: 26px;
-	}
-	.wed_vid_bg h2.wed_without_after img.wed_small_img {
-		display: none;
-	}
-	.wed_vid_bg .wed_slide_txt h4,
-	.wed_vid_bg .wed_slide_txt h3{
-		color: #fff;
-	}
-	/*Multipage*/
-	.wed_img_1,
-	.wed_img_2 {
-		display: none;
-	}
-	/*Shop*/
-	.wed_slider_txt_animation .owl-item.active .wed_shop_btn {
-		margin-bottom: 40px;
-	}
-	.wed_slider_txt_animation .owl-item h3 {
-		transform: translate3d(-40px,0,0);
-	}
-	/*Slider Txt*/
-	.wed_slide_right {
-		top: 50%;
-	}
-	.wed_slide_center_bottom img {
-		height: 350px;
-	}
-.wed_slide_left_bottom_txt_left,
-.wed_slide_right_bottom_txt_right {
-	width: 100%;
-	padding: 0 20px;
-	top: 20%;
-}
-.wed_top_menu_mobile_link {
-	padding: 15px 39px;
-}
-.wed_agency .wed_flowers {
-	display: none;
-}
+    .project2-area .project-menu ul li {
+        padding: 10px 10px;
+    }
+    .newsletter-area .news-letter .text h3 {
+        margin: 0 0 20px;
+    }
+    .about-area2:after {
+        right: -300px;
+        bottom: 30px;
+    }
+    .project-details-area .project-contact {
+        margin-bottom: 30px;
+    }
+    .shop-details-area .product-image .nav-tabs li {
+        width: 33%;
+        display: inline-block;
+        margin: 0 0px 15px 0;
+    }
+    .shop-details-area .product-image .nav-tabs li a {
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .header-one-area.header-two-area,
+    .header-one-area {
+        background: #b42a3c !important;
+        border-bottom: 0px solid #fff;
+        position: relative;
+    }
+    .section {
+        padding: 60px 0;
+    }
+    .section1 {
+        padding: 50px 0;
+    }
+    .section2 {
+        padding: 60px 0 45px;
+    }
+    .main-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    .header-one-area.stick .logo-area {
+        padding: 30px 0;
+    }
+    .counter-inner-content {
+        padding: 20px 0;
+    }
+    .project2-area .project-menu ul,
+    .project2-area .project-menu ul li{
+        border-radius: 0;
+    }
+    .counterup-area .counter-content{
+        margin: 15px 0;
+    }
 
 }
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .slider-one-area .single-slide,
+    .slider-two-area .single-slide {
+        height: 60vh;
+        background-position: 0 0;
+    }
+    .slider-one-area .single-slide .content {
+        text-align: center;
+    }
+    .slider-one-area .single-slide .content h1 {
+        font-size: 20px;
+    }
+    .header-one-area .logo-area {
+        padding: 15px 0 30px;
+    }
+    .slider-one-area .single-slide .content p{
+        padding: 15px 0;
+        margin: 0;
+    }
 
-@media (max-width:850px){
-	/*Inside Pages Journal*/
-	.wed_post_journal_img img {
-		max-height: 500px;
-	}
-	/*Scroll Down*/
-	.wed_scroll_down {
-		display: none;
-	}
-	/*Soundcloud Container*/
-	.wed_music_container {
-		display: none;
-	}
-	/*Footer Border*/
-	.wed_water_border:after {
-		display: none;
-	}
-		.wed_portfolio_poloroid {
-			margin: 0px auto;
-			position:relative;
-			height:900px;
-			width:550px;
-			margin-bottom: 170px;
-			margin-top: 50px;
-		}
-	/*Story*/
-	.wed_story_txt {
-		margin-top: -10px;
-	}
-		.wed_story_txt p {
-			margin-bottom: 30px;
-		}
-	.wed_second_border_right,
-	.wed_second_border {
-		display: none;
-	}
-	.wed_heart_img_1:before, 
-	.wed_heart_img_2:before {
-		left: -5px;
-	}
-	.wed_slider_ornament {
-   width: 90%;
-	}
-}
-@media (max-height:850px){
- .wed_scroll_down {
- 		display: none;
- }
-}
-@media (max-width:782px){
-	/*Header Couple*/
-	.wed_couple_header.wed_white_couple {
-	  left: 26px;
-	}
-	.wed_first_step .wed_couple_header.wed_kissing_couple {
-	  left: 26px;
-	}
-	img.wed_img_height {
-		object-position: 0!important;
-	}
-	h2.wed_hensa_slider {
-   font: 300 70px hensa, Arial;
-	}
-	.wed_flowers {
-		display: none;
-	}
-	.wed_agency_full .wed_partners_agency .wed_icon_box, .wed_agency_full .wed_partners_agency .wed_anim_box {
-	  margin-right: -1px;
-	}
-	.wed_gradient_sl .wed_slider:after {
-		display: none;
-	}
-	.wed_gradient_sl .wed_slider:before {
-		display: none;
-	}
-}
-@media (max-width:650px){
-	.wed_agency h3 {
- 		font: 400 22px/20px Bree Serif, Arial;
-	}
-	.wed_slide_txt.wed_slide_right_middle img {
-		height: 250px;
-	}
-	.wed_great_titles h2 {
-		font:900 64px hensa, Arial;
-		text-align: center;
-	}
-	.wed_great_titles h2:after {
-		background-image: url(../images/arrows_bottom_250.png);
-		width: 250px;
-		height: 17px;
-	}
-	h2:after {
-		background-image: url(../images/arrows_bottom_250.png);
-		width: 250px;
-		height: 17px;
-	}
-	.wed_wht_txt h2:after {
-		background-image: url(../images/arrows_wht_bottom_250.png);
-		width: 250px;
-		height: 16px;
-	}
-	.wed_vid_bg .wed_wht_txt h2:after {
-		background-image: url(../images/arrows_bottom_250.png);
-		width: 250px;
-		height: 16px;
-	}
-	/*Poloroid Portfolio*/
-	.wed_portfolio_poloroid {
-		margin:0px auto;
-		position:relative;
-		height:600px;
-		width:400px;
-		margin-bottom: 150px;
-		margin-top: 50px;
-	}
+    .about-area2:after {
+        right: -450px !important;
+    }
+    .call-to-action-area .content h3 {
+        font-size: 24px;
+    }
+    .header-one-area .header-right ul li:hover .mini-cart-area {
+        right: -160px !important;
+    }
+    .project-area .single-project .project-image img,
+    .project2-area .single-project .project-image img{
+        width: 100%;
+    }
+    .testimonial-area:after {
+        display: none;
+    }
+    .blog-details-page-area .single-blog-area .blog-share .tag, .blog-details-page-area .single-blog-area .blog-share .share {
+        height: auto;
+    }
+    .pagination-area .pagination-list ul li {
+        display: inline-block;
+        margin: 0px;
+    }
+    .comments-area .comments-list ul li .comment-info {
+        width: 350px;
+    }
+    .comments-area .comments-list ul li:nth-child(2) .comment-info {
+        width: 350px;
+    }
+    .comments-area .comments-list ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    
+    .comments-area .comments-list ul li .author-image {
+        margin: 0 0 30px;
+        float: inherit;
+        display: block;
+    }
+    .comments-area .comments-list ul li{
+        text-align: center;
+    }
+    .comments-area .comments-list ul li .author-image i {
+        margin: auto;
+    }
+    .comments-area .comments-list ul li .comment-info {
+        width: 100%;
+    }
+    .comments-area .comments-list ul li:nth-child(2) .comment-info {
+        width: 100%;
+    }
+    .project2-area .project-menu ul li {
+        padding: 10px 30px;
+        margin: 5px 0;
+    }
+    .about-area2:after {
+        right: -400px;
+        bottom: 30px;
+    }
+    .shop-area .left-topbar,
+    .shop-area .right-topbar,
+    .shop-details-area .product-description .tab-content {
+        text-align: center;
+        margin: 5px 0;
+    }
+    .shop-details-area .product-description .nav-tabs li {
+        margin: 9px auto;
+    }
 
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(1n){
-		-webkit-transform:rotate(30deg) scale(0.7,0.7);
-		-moz-transform:rotate(30deg) scale(0.7,0.7);
-		transform:rotate(30deg) scale(0.7,0.7);
-		top:0%;
-		left:-6%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(2n) {
-		-webkit-transform:rotate(-30deg) scale(0.7,0.7);
-		-moz-transform:rotate(-30deg) scale(0.7,0.7);
-		transform:rotate(-30deg) scale(0.7,0.7);
-		top:37%;
-		left:33%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(3n) {
-		-webkit-transform:rotate(40deg) scale(0.7,0.7);
-		-moz-transform:rotate(40deg) scale(0.7,0.7);
-		transform:rotate(40deg) scale(0.7,0.7);
-		top:50%;
-		left:-10%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(4n) {
-		-webkit-transform:rotate(-30deg) scale(0.7,0.7);
-		-moz-transform:rotate(-30deg) scale(0.7,0.7);
-		transform:rotate(-30deg) scale(0.7,0.7);
-		top:0%;
-		left:-10%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(5n) {
-		-webkit-transform:rotate(-20deg) scale(0.8,0.8);
-		-moz-transform:rotate(-20deg) scale(0.8,0.8);
-		transform:rotate(-20deg) scale(0.8,0.8);
-		top:50%;
-		left:12%;
-		z-index:3;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(6n) {
-		-webkit-transform:rotate(30deg) scale(0.7,0.7);
-		-moz-transform:rotate(30deg) scale(0.7,0.7);
-		transform:rotate(30deg) scale(0.7,0.7);
-		top:70%;
-		left:40%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(7n) {
-		-webkit-transform:rotate(10deg) scale(0.7,0.7);
-		-moz-transform:rotate(10deg) scale(0.7,0.7);
-		transform:rotate(10deg) scale(0.7,0.7);
-		top:0%;
-		left:15%;
-	}
-	/*Gift Registry*/
-	.wed_gifts_img img {
-		width: 80%;
-		transition: all .6s;
-	}
-	/*Dandelions*/
-	#leafContainer {
-		display: none;
-	}
-
-	/*Happy Couple*/
-	.wed_heart_img_1:hover:after, 
-	.wed_heart_img_2:hover:after {
-		opacity: 0;
-	}
-	h2.wed_agency_hensa_slider {
-		font-size: 90px;
-	}
-	.wed_slide_txt img {
-		height: 200px;
-	}
-}
-@media (max-width:568px){
-  /*Text*/
-  h1.wed_h1_title {
-   font: 900 54px hensa, Arial;
-  }
-	.wed_top_menu > li > a {
-		padding: 13px 16px;
-	}
-	.wed_slide_center_bottom img{
-		height: 300px;
-	}
-	/*Happy Couple Frame*/
-	.wed_heart_img_1,
-	.wed_heart_img_2 {
-	 position: relative;
-	 height: 418px;
-	 width: auto;
-	}
-	.wed_heart_img_1:before,
-	 .wed_heart_img_2:before {
-	 	display: none;
-	 }
-	h2.wed_hensa_slider {
-   font: 300 60px hensa, Arial;
-	}
+    .project2-area .single-project:hover .overley .project-info {
+        top: 60%;
+    }
+    .breadcumb-area {
+        padding: 50px 0;
+    }
+    .breadcumb-area h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .slider-two-area .single-slide .content h1 {
+        font-size: 24px;
+    }
+    
 }
 
-	@media (max-width:480px){
-		.filter-button-group a:after {
-			display: none;
-		}
-		.wed_iphone {
-			display: none;
-		}
-		.wed_top_menu > li > a {
-			padding: 13px 16px;
-		}
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .services-area .single-servives .content {
+        padding: 20px;
+    }
 
-	.wed_mate_border:before {
-		top: -235px;
-		height: 282px;
-	}
-	.wed_portfolio_item_cont.wed_story_cont {
-		margin-bottom: 40px;
-	}
-	.wed_portfolio_poloroid {
-		margin:0px auto;
-		position:relative;
-		height:600px;
-		width:300px;
-		margin-bottom: 50px;
-		left: 10px;
-	}
+    .about-area:after {
+        width: 200px;
+    }
 
 
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(1n){
-		-webkit-transform:rotate(30deg) scale(0.7,0.7);
-		-moz-transform:rotate(30deg) scale(0.7,0.7);
-		transform:rotate(30deg) scale(0.7,0.7);
-		top:0%;
-		left:-6%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(2n) {
-		-webkit-transform:rotate(-30deg) scale(0.7,0.7);
-		-moz-transform:rotate(-30deg) scale(0.7,0.7);
-		transform:rotate(-30deg) scale(0.7,0.7);
-		top:32%;
-		left:16%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(3n) {
-		-webkit-transform:rotate(40deg) scale(0.7,0.7);
-		-moz-transform:rotate(40deg) scale(0.7,0.7);
-		transform:rotate(40deg) scale(0.7,0.7);
-		top:50%;
-		left:-10%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(4n) {
-		-webkit-transform:rotate(-30deg) scale(0.7,0.7);
-		-moz-transform:rotate(-30deg) scale(0.7,0.7);
-		transform:rotate(-30deg) scale(0.7,0.7);
-		top:0%;
-		left:-10%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(5n) {
-		-webkit-transform:rotate(-20deg) scale(0.8,0.8);
-		-moz-transform:rotate(-20deg) scale(0.8,0.8);
-		transform:rotate(-20deg) scale(0.8,0.8);
-		top:50%;
-		left:12%;
-		z-index:3;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(6n) {
-		-webkit-transform:rotate(30deg) scale(0.7,0.7);
-		-moz-transform:rotate(30deg) scale(0.7,0.7);
-		transform:rotate(30deg) scale(0.7,0.7);
-		top:67%;
-		left:19%;
-	}
-	.wed_portfolio_poloroid .wed_portfolio_item_poloroid:nth-child(7n) {
-		-webkit-transform:rotate(10deg) scale(0.7,0.7);
-		-moz-transform:rotate(10deg) scale(0.7,0.7);
-		transform:rotate(10deg) scale(0.7,0.7);
-		top:0%;
-		left:15%;
-	}
-	/*Inside Pages Journal*/
-	.wed_post_journal_img img {
-		max-height: 300px;
-	}
-	h2.wed_hensa_slider {
-   font: 300 50px hensa, Arial;
-	}
-	.wed_red .wed_heart_img_1:hover:after, 
-	.wed_red .wed_heart_img_2:hover:after {
-		opacity: 0;
-	}
-	.wed_blue .wed_heart_img_1:hover:after, 
-	.wed_blue .wed_heart_img_2:hover:after {
-		opacity: 0;
-	}
-		h2.wed_agency_hensa_slider {
-		font-size: 60px;
-	}
+    .newsletter-area .news-letter .form-area button {
+        width: 38%;
+    }
+    .slider-one-area .single-slide .content {
+        text-align: center;
+    }
+    .slider-one-area .single-slide .content h1 {
+        font-size: 20px;
+    }
+    .header-one-area .logo-area {
+        padding: 15px 0;
+    }
+
+    .slider-one-area .single-slide .content p{
+        padding: 15px 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    .slider-one-area .single-slide .content .button-area ul li {
+        margin: 10px 0;
+    }
+    .slider-one-area .single-slide .content .button-area ul li a {
+        font-size: 12px;
+    }
+    .blog-page-area .single-blog .content h3 a {
+        font-size: 18px;
+    }
+    .breadcumb-area {
+        padding: 50px 0;
+    }
+    .breadcumb-area h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .blog-details-page-area .single-blog-area .content h2 a {
+        font-size: 20px;
+    }
+    .sidebar-area .widget.recent-post-widget .popular-post-widget ul li .post-image {
+        width: 100%;
+        float: inherit;
+        margin: 0 0 020px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+        display: block;
+    }
+    .about-area2:after {
+        right: -560px !important;
+    }
+    .section-title h2 {
+        font-size: 24px;
+    }
+ 
+    .shop-details-area .product-details h3 {
+        font-size: 24px !important;
+    }
+    .shop-details-area .product-details .product-cart ul li.add-cart a {
+        padding: 5px 5px;
+    }
+    .project2-area .project-menu ul li,
+    .project-area .project-menu ul li {
+        display: block;
+    }
+    .project2-area .project-menu ul{
+        width: 100%;
+    }
+    .pagination-area .pagination-list ul li a {
+        padding: 10px 17px;
+    }
 }
 
-
-@media (max-width:425px) {
-	h2.wed_without_after {
-		font-size: 46px;
-	}
-
-	.wed_thin_titles h2 {
-		font-size: 46px;
-	}
-	.wed_slide_left_bottom_txt_left,
-	.wed_slide_right_bottom_txt_right {
-		width: 100%;
-		padding: 0 20px;
-		top: 14%;
-	}
-.wed_agency .wed_slider_txt_animation  p {
-	font-size: 12px;
-	margin-bottom: 10px;
-	line-height: 15px;
+@media (max-width: 320px) {
+	
 }
-.wed_agency .wed_slider_txt_animation  h3 {
-	margin-bottom: 0;
-	font: 400 20px/18px Bree Serif, Arial;
-}
-}
-@media (max-width:405px){
-
-	img.wed_img_height {
-		min-width: 0;
-	}
-	.wed_portfolio_item_cont.wed_story_cont {
-		height: 300px;
-	}
-
-	h3 {
-		font-size: 36px;
-	}
-		.wed_slide_txt.wed_slide_right img {
-			height: 350px;
-		}
-		/*Portfolio Poloroid*/
-		.wed_portfolio_poloroid {
-			margin:0px auto;
-			position:relative;
-			height:600px;
-			width:260px;
-			left: 10px;
-	}
-	h2.wed_hensa_slider {
-   font: 300 40px hensa, Arial;
-	}
-	.wed_flowers {
-		display: none;
-	}
-	h3 {
-		font: 400 26px/10px Bree Serif, Arial;
-	}
-}
-@media (max-width: 332px){
-	/*Inside Pages Journal*/
-	.wed_post_journal_img img {
-		max-height: 200px;
-		}
-	/*Inside Pages Location*/
-	.wed_pad_txt {
-	padding: 10px 40px 0 40px;
-}
-.wed_agency p{
-	margin-bottom: 17px;
-	font-size: 16px;
-}
-	}
-
-

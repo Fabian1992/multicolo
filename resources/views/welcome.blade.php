@@ -8,44 +8,45 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     
+    <link href="{{ asset('admin/font/roboto.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('admin/font/icomoon/styles.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('admin/font/fontawesome-free-5.9.0-web/css/all.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('admin/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('client/css/wedding_library.css') }}" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/style.css')}}">
-    <link href="{{ asset('client/css/min.css') }}" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="{{ asset('nuevos/animate.css') }}">
+	<link href="{{ asset('client/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+ 
+    {{-- <link href="{{ asset('client/css/responsive.css') }}" rel="stylesheet" type="text/css"> --}}
+	<link rel="stylesheet" type="text/css" href="{{asset('client/css/style.css')}}">
+    {{-- <link href="{{ asset('client/css/min.css') }}" rel="stylesheet" type="text/css"> --}}
+    <link rel="stylesheet" href="{{ asset('client/css/animate.css') }}">
     <!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/plugins.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('client2/css/templete.css')}}">
-	<link class="skin" rel="stylesheet" type="text/css" href="{{asset('client2/css/skin/skin-1.css')}}">
-	
-    <link rel="stylesheet" href="{{ asset('nuevos/open-iconic-bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{asset('client/css/plugins.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('client/css/templete.css')}}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{asset('client/css/skin/skin-1.css')}}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{asset('client/plugins/switcher/switcher.css')}}">
+     <link rel="stylesheet" href="{{ asset('client/css/open-iconic-bootstrap.min.css') }}">   
     
-    
-    <link rel="stylesheet" href="{{ asset('nuevos/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('nuevos/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('nuevos/magnific-popup.css') }}">
-   
-	 
+    <link href="{{ asset('client/css/wedding_library.css') }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{ asset('client/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('client/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('client/css/magnific-popup.css') }}">
+
 
 </head>
 <body id="bg">
     <div id="loading-area"><div class="la-anim-10"></div></div>
     <!-- Preloader -->
-    {{--  <div class="wed_page_loader">
+     <div class="wed_page_loader">
         <div class="wed_story_content">
             <div class="wed_heart_container_row_4">
-                <img class="wed_fourth_heart_1" src="https://mafer.soysoftware.com/images/small_people/heart_1.png" alt="">
-                <img class="wed_fourth_heart_2" src="https://mafer.soysoftware.com/images/small_people/heart_2.png" alt="">
-                <img class="wed_fourth_heart_3" src="https://mafer.soysoftware.com/images/small_people/heart_3.png" alt="">
+                <img class="wed_fourth_heart_1" src="{{ asset('client/images/logolocal.png') }}" alt="">
+                <img class="wed_fourth_heart_2" src="{{ asset('client/images/logolocal.png') }}" alt="">
+                <img class="wed_fourth_heart_3" src="{{ asset('client/images/logolocal.png') }}" alt="">
             </div>
             <div class="wed_story_small_img">
-                <img src="https://mafer.soysoftware.com/images/small_people/small_couple.png" alt="">
+                <img src="{{ asset('client/images/logolocal.png') }}" alt="">
             </div>
 
         </div>
-    </div>  --}}
+    </div> 
     <!-- Preloader End--> 
     <div class="wed_flowers">
         <div class="wed_fl_2 wed_fl  " data-0="top:210px" data-500="top:100px"   style="top: 210px;">
@@ -114,14 +115,14 @@
                     <div class="row d-flex justify-content-between">
                         <div class="dlab-topbar-left">
                             <ul>
-                                <li><i class="flaticon-phone-call m-r5"></i> 0984372998</li>
+                                <li><i class="icon-phone-wave"></i> 0984372998</li>
                                 <li><i class="fa fa-map"></i> Av. Antonia Vela y Av. Antonio josé de sucre, ECU</li>
                             </ul>
                         </div>
                         <div class="dlab-topbar-right">
                             <ul>
                                 <li><i class="fa fa-skype m-r5"></i> Agency.software</li>
-                                <li><i class="fa fa-email m-r5"></i> info@example.com</li>
+                                <li><i class="icon-envelop4  fa-3x"></i> info@example.com</li>
                             </ul>
                         </div>
                     </div>
@@ -133,7 +134,7 @@
                     <div class="container clearfix">
                         <!-- website logo -->
                         <div class="logo-header mostion">
-                            <a href="index.html" class="dez-page"><img src="{{asset('nuevos/images/logo_blanco.png')}}" alt=""></a>
+                            <a href="index.html" class="dez-page"><img src="{{asset('client/images/logo_blanco.png')}}" alt=""></a>
                         </div>
                         <!-- nav toggle button -->
                         <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -150,7 +151,7 @@
                         <!-- main nav -->
                         <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="nav navbar-nav">	
-                                <li class="active"><a href="#"><i class="fa fa-home mr5" aria-hidden="true"></i> <i class="fa fa-chevron-down"></i></a>
+                                <li class="active"><a href="#"><span class="icon-home2"></span> <i class="fa fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="index.html" class="dez-page">Home 1</a></li>
                                         <li><a href="index-2.html" class="dez-page">Home 2</a></li>
@@ -185,11 +186,11 @@
             <!-- Slider -->
             <!-- Slider -->           
             <section class="home-slider rev_slider fullscreenbanner owl-carousel js-fullheight curv-bx" >
-                <div class="slider-item js-fullheight item-video curv-bx" data-merge="1" >
+                <div class="slider-item js-fullheight item-video " data-merge="1" >
                     
                     <video class=" video-intro " autoplay  loop muted name="media">
-                        <source src="{{ asset('nuevos/videos/slider.mp4') }}" type="video/mp4">
-                        </video>
+                        <source src="{{ asset('client/images/videos/slider.mp4') }}" type="video/mp4">
+                     </video>
                    
                     <div class="overlay"></div>
                     <div class="container ">
@@ -205,7 +206,7 @@
                     </div>
                 </div>
                       
-                <div class="slider-item js-fullheight " style="background-image: url({{asset('nuevos/images/bg_1.jpg')}});">
+                <div class="slider-item js-fullheight " style="background-image: url({{asset('client/images/bg_1.jpg')}});">
                     <div class="overlay"></div>
                     <div class="container">
                     <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -281,37 +282,31 @@
     </div>
 </div>
 <!-- JavaScript  files ========================================= -->
-<script src="{{asset('nuevos/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
+<script src="{{asset('client/js/jquery-3.2.1.min.js')}}"></script><!-- JQUERY.MIN JS -->
 <script src="{{asset('nuevos/jquery-migrate-3.0.1.min.js')}}"></script>
-<script src="{{asset('client2/plugins/bootstrap/js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
-
-<script src="{{ asset('admin/js/blockui.min.js') }}"></script>
-<script src="{{ asset('client/js/wedding_min_library.js') }}"></script>
-<script src="{{ asset('client/js/jquery.countdown.min.js') }}"></script>
-<script src="{{ asset('client/js/jquery.mb.YTPlayer.min.js') }}"></script>
-<script src="{{ asset('client/js/wedding_min_script.js') }}"></script>
-
-<script src="{{asset('client2/plugins/wow/wow.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="{{asset('client2/plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
-<script src="{{asset('client2/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}"></script><!-- FORM JS -->
-<script src="{{asset('client2/plugins/magnific-popup/magnific-popup.js')}}"></script><!-- MAGNIFIC-POPUP JS -->
-<script src="{{asset('client2/plugins/counter/waypoints-min.js')}}"></script><!-- WAYPOINTS JS -->
-<script src="{{asset('client2/plugins/counter/counterup.min.js')}}"></script><!-- COUNTERUP JS -->
-<script src="{{asset('client2/plugins/imagesloaded/imagesloaded.js')}}"></script><!-- MASONRY  -->
-<script src="{{asset('client2/plugins/masonry/masonry-3.1.4.js')}}"></script><!-- MASONRY  -->
-<script src="{{asset('client2/plugins/masonry/masonry.filter.js')}}"></script><!-- MASONRY  -->
-<script src="{{asset('client2/plugins/owl-carousel/owl.carousel.js')}}"></script><!-- OWL  SLIDER  -->
-<script src="{{asset('client2/plugins/rangeslider/rangeslider.js')}}" ></script><!-- Rangeslider -->
-<script src="{{asset('client2/js/dz.carousel.js')}}"></script><!-- SORTCODE FUCTIONS  -->
-<script src="{{asset('client2/plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
-<script src="{{asset('client2/plugins/loading/anime-app.js')}}"></script><!-- LOADING JS -->
-<script src="{{asset('client2/js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
-
-<script src="{{asset('client2/plugins/loading/anime.js')}}"></script><!-- Tilt Jquery -->
-<script src="{{asset('client2/plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery -->
-<script src="{{asset('client2/js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
-{{--  <script src="{{asset('client2/plugins/switcher/switcher.js')}}"></script><!-- SWITCHER JS  -->  --}}
-<script src="{{asset('nuevos/owl.carousel.min.js')}}"></script> 
+    <script src="{{asset('client/js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+    
+    <script src="{{ asset('admin/js/blockui.min.js') }}"></script>
+    <script src="{{ asset('client/js/wedding_min_library.js') }}"></script>
+    <script src="{{ asset('client/js/jquery.countdown.min.js') }}"></script>
+    <script src="{{ asset('client/js/jquery.mb.YTPlayer.min.js') }}"></script>
+    <script src="{{ asset('client/js/wedding_min_script.js') }}"></script>
+   
+    <script src="{{asset('client/plugins/wow/wow.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+    <script src="{{asset('client/plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
+    <script src="{{asset('client/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}"></script><!-- FORM JS -->
+    <script src="{{asset('client/plugins/magnific-popup/magnific-popup.js')}}"></script><!-- MAGNIFIC-POPUP JS -->
+    <script src="{{asset('client/plugins/counter/waypoints-min.js')}}"></script><!-- WAYPOINTS JS -->
+    <script src="{{asset('client/plugins/counter/counterup.min.js')}}"></script><!-- COUNTERUP JS -->
+    <script src="{{asset('client/plugins/imagesloaded/imagesloaded.js')}}"></script><!-- MASONRY  -->
+    <script src="{{asset('client/plugins/masonry/masonry-3.1.4.js')}}"></script><!-- MASONRY  -->
+    <script src="{{asset('client/plugins/masonry/masonry.filter.js')}}"></script><!-- MASONRY  -->
+    <script src="{{asset('client/js/owl.carousel.min.js')}}"></script><!-- OWL  SLIDER  -->
+   
+   
+    <script src="{{asset('client/plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
+    <script src="{{asset('client/plugins/loading/anime-app.js')}}"></script><!-- LOADING JS -->
+    <script src="{{asset('client/js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
     
 <script>
     $(document).ready(function(){
@@ -326,10 +321,11 @@
             nav:true,
             dots: false,
             video:true,
-           
-            autoplay:false,
+            autoplayTimeout: 5000,
+            autoplay:true,
             autoplayHoverPause: true,
             items: 1,
+            responsiveClass:true,
             navText : ['<i class="catch fas fa-angle-left"></i>','<i class="catch fas fa-angle-right"></i>'],
             responsive:{
               0:{
@@ -345,7 +341,7 @@
             });
 
 })
-    
+new WOW().init();
 </script>
 </body>
 </html>
