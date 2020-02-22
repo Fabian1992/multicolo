@@ -321,7 +321,7 @@
             nav:true,
             dots: false,
             video:true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 8000,
             autoplay:true,
             autoplayHoverPause: true,
             items: 1,
