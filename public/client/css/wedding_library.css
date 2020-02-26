@@ -753,3 +753,9 @@ img.wed_small_img {
         left: -100%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .fullscreen-bg {
+        background-image: url('/client/images/background/fondo.jpg');
+    }
+}

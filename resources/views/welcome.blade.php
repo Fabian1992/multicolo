@@ -187,13 +187,13 @@
             <!-- Slider -->
             <!-- Slider -->           
             <section class="home-slider rev_slider fullscreenbanner owl-carousel js-fullheight curv-bx" >
-                <div class="slider-item js-fullheight item-video " data-merge="1" >
+                <div class="slider-item js-fullheight item-video video-back " data-merge="1" >
                     
                     {{--  <video class=" video-intro " autoplay  loop muted name="media">
                         <source src="{{ asset('client/images/videos/slider.mp4') }}" type="video/mp4">
                      </video>  --}}
                      <div class="fullscreen-bg">
-                        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+                        <video loop muted autoplay  class="fullscreen-bg__video">
                             
                             <source src="{{ asset('client/images/videos/slider11.mp4') }}" type="video/mp4">
                             
