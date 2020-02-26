@@ -189,9 +189,16 @@
             <section class="home-slider rev_slider fullscreenbanner owl-carousel js-fullheight curv-bx" >
                 <div class="slider-item js-fullheight item-video " data-merge="1" >
                     
-                    <video class=" video-intro " autoplay  loop muted name="media">
+                    {{--  <video class=" video-intro " autoplay  loop muted name="media">
                         <source src="{{ asset('client/images/videos/slider.mp4') }}" type="video/mp4">
-                     </video>
+                     </video>  --}}
+                     <div class="fullscreen-bg">
+                        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+                            
+                            <source src="{{ asset('client/images/videos/slider11.mp4') }}" type="video/mp4">
+                            
+                        </video>
+                    </div>
                    
                     <div class="overlay"></div>
                     <div class="container ">
