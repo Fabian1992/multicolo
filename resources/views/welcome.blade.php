@@ -33,6 +33,7 @@
 
 </head>
 <body id="bg">
+   
     
     <!-- Preloader -->
      <div class="wed_page_loader">
@@ -50,56 +51,56 @@
     </div> 
     <!-- Preloader End--> 
     <div class="wed_flowers">
-        <div class="wed_fl_2 wed_fl  " data-0="top:210px" data-500="top:100px"   style="top: 210px;">
+        <div class="wed_fl_2 wed_fl skrollable skrollable-between  " data-0="top:210px" data-500="top:100px"   style="top: 210px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
-      <div class="wed_fl_3 wed_fl " data-0="top:210px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px"   style="top: 210px;">
+      <div class="wed_fl_3 wed_fl skrollable skrollable-between " data-0="top:210px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px"   style="top: 210px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
       </div>
-      <div class="wed_fl_4 wed_fl " data-0="top:650px" data-500="top:100px"  style="top: 650px;">
+      <div class="wed_fl_4 wed_fl skrollable skrollable-between " data-0="top:650px" data-500="top:100px"  style="top: 650px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/1.png') }}" alt="">
       </div>
       
-      <div class="wed_fl_6 wed_fl " data-0="top:490px" data-500="top:520px"   style="top: 490px;">
+      <div class="wed_fl_6 wed_fl skrollable skrollable-between " data-0="top:490px" data-500="top:520px"   style="top: 490px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/2_blur.png') }}" alt="">
       </div>
-      <div class="wed_fl_7 wed_fl " data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
+      <div class="wed_fl_7 wed_fl skrollable skrollable-between " data-0="top:300px" data-500="top:720px" data-1200="top:1200px" data-3000="top:3000px" data-4500="top:5000px" data-6500="top:6400px" data-8000="top:7000px" style="top: 270px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
       </div>
 
-      <div class="wed_fl_8 wed_fl " data-0="top:490px" data-500="top:120px"  style="top: 490px;">
+      <div class="wed_fl_8 wed_fl skrollable skrollable-between " data-0="top:490px" data-500="top:120px"  style="top: 490px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
       </div>
     
-      <div class="wed_fl_9 wed_fl " data-0="top:110px" data-500="top:100px" style="top: 130px;">
+      <div class="wed_fl_9 wed_fl skrollable skrollable-between " data-0="top:110px" data-500="top:100px" style="top: 130px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/9.png') }}" alt="">
       </div>
-      <div class="wed_fl_12 wed_fl " data-0="top:360px" data-500="top:230px"  style="top: 360px;">
+      <div class="wed_fl_12 wed_fl skrollable skrollable-between " data-0="top:360px" data-500="top:230px"  style="top: 360px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
-      <div class="wed_fl_10 wed_fl " data-0="top:650px" data-500="top:100px"  style="top: 650px;">
+      <div class="wed_fl_10 wed_fl skrollable skrollable-between " data-0="top:650px" data-500="top:100px"  style="top: 650px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/3_blur.png') }}" alt="">
       </div>
 
-      <div class="wed_fl_13 wed_fl " data-0="top:360px" data-500="top:530px"  style="top: 360px;">
+      <div class="wed_fl_13 wed_fl skrollable skrollable-between " data-0="top:360px" data-500="top:530px"  style="top: 360px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/111.png') }}" alt="">
       </div>
-      <div class="wed_fl_14 wed_fl " data-0="top:300px" data-500="top:220px"  style="top: 270px;">
+      <div class="wed_fl_14 wed_fl skrollable skrollable-between " data-0="top:300px" data-500="top:220px"  style="top: 270px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/4_blur.png') }}" alt="">
       </div>
-      <div class="wed_fl_15 wed_fl " data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
+      <div class="wed_fl_15 wed_fl skrollable skrollable-between " data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/15.png') }}" alt="">
       </div>
-      <div class="wed_fl_16 wed_fl " data-0="top:110px" data-500="top:100px"  style="top: 130px;">
+      <div class="wed_fl_16 wed_fl skrollable skrollable-between " data-0="top:110px" data-500="top:100px"  style="top: 130px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/16.png') }}" alt="">
       </div>
-      <div class="wed_fl_17 wed_fl " data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
+      <div class="wed_fl_17 wed_fl skrollable skrollable-between " data-0="top:140px" data-500="top:1000px" data-1200="top:1200px" data-3000="top:3800px" data-4500="top:4900px" data-6500="top:6100px" data-8000="top:7200px" style="top: 250px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/17.png') }}" alt="">
       </div>
-      <div class="wed_fl_18 wed_fl " data-0="top:140px" data-500="top:400px"  style="top: 140px;">
+      <div class="wed_fl_18 wed_fl skrollable skrollable-between " data-0="top:140px" data-500="top:400px"  style="top: 140px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/18.png') }}" alt="">
       </div>
-      <div class="wed_fl_19 wed_fl " data-0="top:210px" data-500="top:300px"  style="top: 210px;">
+      <div class="wed_fl_19 wed_fl skrollable skrollable-between " data-0="top:210px" data-500="top:300px"  style="top: 210px;">
           <img class="responsive" src="{{ asset('client/images/petals/blue_flower/1_blur.png') }}" alt="">
       </div>
       
@@ -285,6 +286,211 @@
                 </div>
             </div>
             <!-- About Us End-->
+            <!-- About Us End-->
+            <!-- Services -->
+            <div class="section-full about-section bg-white">
+                <div class="container-fluid">
+                    <div class="row dzseth">
+                        <div class="bg-primary col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 d-flex dis-tbl">
+                            <div class="p-a30 text-white dis-tbl-cell align-self-center wow fadeIn" data-wow-delay="0.3s">
+                                <p class="font-weight-600 m-b10">create best website</p>
+                                <h4 class="font-weight-700">Extremely well organized with perfect coding</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum
+                                    is simply dummy text.</p>
+                                <a href="#" class="site-button white outline outline-2">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 d-flex">
+                            <img src="https://agency.dexignlab.com/xhtml/images/about-us/img4.jpg" class="abt-img img-cover" alt="" />
+                        </div>
+                        <div class="bg-primary col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 d-flex dis-tbl">
+                            <div class="p-a30 text-white dis-tbl-cell align-self-center wow fadeIn" data-wow-delay="0.6s">
+                                <p class="font-weight-600 m-b10">create best website</p>
+                                <h4 class="font-weight-700">Extremely well organized with perfect coding</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum
+                                    is simply dummy text.</p>
+                                <a href="#" class="site-button white outline outline-2">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 d-flex">
+                            <img src="https://agency.dexignlab.com/xhtml/images/about-us/img2.jpg" class="abt-img img-cover" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Services END -->
+            <!-- About Us -->
+            <div class="section-full content-inner bg-white">
+                <div class="container">
+                    <div class="row m-b50 equal-wraper2">
+                        <div class="col-xl-6 col-lg-6 col-md-12 equal-col wow fadeInLeft m-b20" data-wow-delay="0.3s">
+                            <img src="https://agency.dexignlab.com/xhtml/images/about-us/img3.jpg" class="object-cover radius-sm" alt="" />
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 dis-tbl equal-col wow fadeInRight" data-wow-delay="0.6s">
+                            <div class="dis-tbl-cell">
+                                <h5 class="text-primary m-b5">With graceful feature, create a modern design</h5>
+                                <h2 class="font-weight-500 m-t0 m-b10">Gorgeous website template for online presence</h2>
+                                <h6 class="font-weight-400 m-b30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</h6>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
+                                        <div class="icon-bx-wraper  left">
+                                            <div class="icon-sm text-primary m-b20"> <a href="#" class="icon-cell text-primary"><i class="ti-desktop"></i></a> </div>
+                                            <div class="icon-content">
+                                                <h5 class="dlab-tilte">Lifetime Updates</h5>
+                                                <h6 class="font-weight-400">Lorem ipsum dolor sit elit nonummy dolor is.</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
+                                        <div class="icon-bx-wraper  left">
+                                            <div class="icon-sm text-primary m-b20"> <a href="#" class="icon-cell text-primary"><i class="ti-ruler-pencil"></i></a> </div>
+                                            <div class="icon-content">
+                                                <h5 class="dlab-tilte">Fast Supports</h5>
+                                                <h6 class="font-weight-400">Lorem ipsum dolor sit elit nonummy dolor is.</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6  m-b30">
+                                        <div class="icon-bx-wraper  left">
+                                            <div class="icon-sm text-primary m-b20"> <a href="#" class="icon-cell text-primary"><i class="ti-palette"></i></a> </div>
+                                            <div class="icon-content">
+                                                <h5 class="dlab-tilte">Interactive Elements</h5>
+                                                <h6 class="font-weight-400">Lorem ipsum dolor sit elit nonummy dolor is.</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6  m-b10">
+                                        <div class="icon-bx-wraper  left">
+                                            <div class="icon-sm text-primary m-b20"> <a href="#" class="icon-cell text-primary"><i class="ti-file"></i></a> </div>
+                                            <div class="icon-content">
+                                                <h5 class="dlab-tilte">Flexible Layout</h5>
+                                                <h6 class="font-weight-400">Lorem ipsum dolor sit elit nonummy dolor is.</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dlab-divider bg-gray-dark"><i class="icon-dot c-square"></i></div>
+                    <div class="row m-t30">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="counter-style-1">
+                                <div class="">
+                                    <i class="icon flaticon-bar-chart text-primary"></i>
+                                    <span class="counter">7652</span>
+                                </div>
+                                <span class="counter-text">Completed Projects</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="counter-style-1">
+                                <div class="">
+                                    <i class="icon flaticon-avatar text-primary"></i>
+                                    <span class="counter">4562</span>
+                                </div>
+                                <span class="counter-text">Happy Clients</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="counter-style-1">
+                                <div class="">
+                                    <i class="icon flaticon-file text-primary"></i>
+                                    <span class="counter">3569</span>
+                                </div>
+                                <span class="counter-text">Questions Answered</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30 wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="counter-style-1">
+                                <div class="">
+                                    <i class="icon flaticon-pen text-primary"></i>
+                                    <span class="counter">2089</span>
+                                </div>
+                                <span class="counter-text">Ordered Coffee's</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About Us -->
+            <!-- Team And Process -->
+            <div class="section-full bg-black-light content-inner">
+                <div class="container">
+                    <div class="max-w600 m-auto text-center m-b50 text-white">
+                        <h6 class="font-weight-300 m-t0">Why Choose Us?</h6>
+                        <h3>Provide you a website which is full of extreme feature.</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="dlab-box-bg m-b30 box-hover" style="background-image:url(https://agency.dexignlab.com/xhtml/images/our-services/pic1.jpg)">
+                                <div class="icon-bx-wraper center p-lr20 p-tb30">
+                                    <div class="text-primary m-b30">
+                                        <span class="icon-cell icon-sm"><i class="ti-ruler-pencil"></i></span>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="dlab-tilte">Creative design</h5>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.</p>
+                                    </div>
+                                </div>
+                                <div class="icon-box-btn text-center">
+                                    <a href="#" class="site-button btn-block">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="dlab-box-bg m-b30 box-hover" style="background-image:url(https://agency.dexignlab.com/xhtml/images/our-services/pic2.jpg)">
+                                <div class="icon-bx-wraper center p-lr20 p-tb30">
+                                    <div class="text-primary m-b30">
+                                        <span class="icon-cell icon-sm"><i class="ti-heart"></i></span>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="dlab-tilte">Just Easy Way</h5>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.</p>
+                                    </div>
+                                </div>
+                                <div class="icon-box-btn text-center">
+                                    <a href="#" class="site-button btn-block">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="dlab-box-bg m-b30 box-hover active" style="background-image:url(https://agency.dexignlab.com/xhtml/images/our-services/pic3.jpg)">
+                                <div class="icon-bx-wraper center p-lr20 p-tb30">
+                                    <div class="text-primary m-b30">
+                                        <span class="icon-cell icon-sm"><i class="ti-brush-alt"></i></span>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="dlab-tilte">Awesome function</h5>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.</p>
+                                    </div>
+                                </div>
+                                <div class="icon-box-btn text-center">
+                                    <a href="#" class="site-button btn-block">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="dlab-box-bg m-b30 box-hover" style="background-image:url(https://agency.dexignlab.com/xhtml/images/our-services/pic4.jpg)">
+                                <div class="icon-bx-wraper center p-lr20 p-tb30">
+                                    <div class="text-primary m-b30">
+                                        <span class="icon-cell icon-sm"><i class="ti-mouse-alt"></i></span>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h5 class="dlab-tilte">Flexible Layout</h5>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.</p>
+                                    </div>
+                                </div>
+                                <div class="icon-box-btn text-center">
+                                    <a href="#" class="site-button btn-block">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team And Process END -->
+            <!-- Portfolio -->
 
         </div>
     </div>
@@ -295,10 +501,11 @@
     <script src="{{asset('client/js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
     
     <script src="{{ asset('admin/js/blockui.min.js') }}"></script>
-    <script src="{{ asset('client/js/wedding_min_library.js') }}"></script>
-    <script src="{{ asset('client/js/jquery.countdown.min.js') }}"></script>
+    <script src="{{ asset('client/plugins/skrollr/dist/skrollr.min.js') }}"></script>
+    {{-- <script src="{{ asset('client/js/wedding_min_library.js') }}"></script> --}}
+    {{-- <script src="{{ asset('client/js/jquery.countdown.min.js') }}"></script> --}}
     <script src="{{ asset('client/js/jquery.mb.YTPlayer.min.js') }}"></script>
-    <script src="{{ asset('client/js/wedding_min_script.js') }}"></script>
+    
    
     <script src="{{asset('client/plugins/wow/wow.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
     <script src="{{asset('client/plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
@@ -310,7 +517,7 @@
     <script src="{{asset('client/plugins/masonry/masonry-3.1.4.js')}}"></script><!-- MASONRY  -->
     <script src="{{asset('client/plugins/masonry/masonry.filter.js')}}"></script><!-- MASONRY  -->
     <script src="{{asset('client/js/owl.carousel.min.js')}}"></script><!-- OWL  SLIDER  -->
-   
+    {{-- <script src="{{ asset('client/js/wedding_min_script.js') }}"></script> --}}
    
     <script src="{{asset('client/plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
     <script src="{{asset('client/plugins/loading/anime-app.js')}}"></script><!-- LOADING JS -->
@@ -318,7 +525,10 @@
     
 <script>
     $(document).ready(function(){
-
+        if ($("body").imagesLoaded(function() {
+            $(".wed_page_loader div").fadeOut(),
+                $(".wed_page_loader").delay(200).fadeOut("slow")
+        }));
  
         $('.owl-carousel').owlCarousel({
             loop:true,
@@ -350,6 +560,22 @@
 
 })
 new WOW().init();
+
+</script>
+<script type="text/javascript">
+    //http://detectmobilebrowsers.com/ + tablets
+    (function(a) {
+        if (device.tablet() || device.mobile()) {
+            //Add skrollr mobile on mobile devices.
+            document.write('<script type="text/javascript" src="/client/plugins/skrollr/dist/skrollr.mobile.min.js"><\/script>');
+        }
+    })(navigator.userAgent || navigator.vendor || window.opera);
+</script>
+
+
+
+<script type="text/javascript">
+    var s = skrollr.init();
 </script>
 </body>
 </html>
